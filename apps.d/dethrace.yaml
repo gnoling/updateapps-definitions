@@ -1,0 +1,15 @@
+name: Dethrace
+description: Reverse-engineered Carmageddon (1997) engine — needs the original DATA folder here
+category: ports
+notes: |
+  Needs SDL3 installed: it dlopens libSDL3.so.0, so ldd looks clean even when it's missing.
+  Needs Carmageddon's DATA/ folder in the install directory.
+source:
+  type: github-release
+  repo: dethrace-labs/dethrace
+asset: '*linux-x64.tar.gz'
+install:
+  type: extract
+  dest: ${APPDIR}/dethrace
+  strip: 1
+  executables: [dethrace]

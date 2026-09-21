@@ -1,0 +1,10 @@
+name: DSDA-Doom
+description: Doom source port focused on speedrunning, demos, and accurate replays
+category: ports
+source:
+  type: github-release
+  repo: kraflab/dsda-doom
+asset: 'dsda-doom-*-linux-x86_64.appimage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/dsda-doom.AppImage

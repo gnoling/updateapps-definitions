@@ -1,0 +1,11 @@
+name: Obentou
+description: NEC PC Engine / TurboGrafx-16 emulator
+category: emulators
+source:
+  type: github-release
+  repo: yughias/Obentou
+asset: '*-linux.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/obentou
+  executables: [obentou]

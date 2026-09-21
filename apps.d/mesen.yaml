@@ -1,0 +1,17 @@
+name: Mesen
+description: High-accuracy NES/Famicom and SNES emulator
+category: emulators
+enabled: false
+notes: |
+  Archived upstream; its CI nightlies are gone. Disabled: a nightly, if installed, is newer
+  than this final release (2.1.1).
+source:
+  type: github-release
+  repo: SourMesen/Mesen2
+  channel: stable
+  version_from: tag
+asset: 'Mesen_*_Linux_x64.zip'
+install:
+  type: extract-one
+  member: Mesen
+  dest: ${APPIMAGEDIR}/Mesen.AppImage

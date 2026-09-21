@@ -1,0 +1,13 @@
+name: RuneScape Classic
+description: RuneScape Classic client in C — self-contained, connects to community servers
+category: ports
+notes: |
+  Self-contained: bundles its own cache/, connects to community RSC servers. No game data needed.
+source:
+  type: github-release
+  repo: 2003scape/rsc-c
+asset: mudclient177-linux-x86_64.tar.gz
+install:
+  type: extract
+  dest: ${APPDIR}/rsc-c
+  executables: [mudclient]

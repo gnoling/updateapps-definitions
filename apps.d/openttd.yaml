@@ -1,0 +1,13 @@
+name: OpenTTD
+description: Open-source reimplementation of Transport Tycoon Deluxe
+category: ports
+source:
+  type: yaml
+  url: https://cdn.openttd.org/openttd-releases/latest.yaml
+  version: '.latest[0].version'
+  download: 'https://cdn.openttd.org/openttd-releases/{{.Version}}/openttd-{{.Version}}-linux-generic-amd64.tar.xz'
+install:
+  type: extract
+  dest: ${APPDIR}/openttd
+  strip: 1
+  executables: [openttd]

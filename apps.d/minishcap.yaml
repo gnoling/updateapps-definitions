@@ -1,0 +1,11 @@
+name: 'The Legend of Zelda: The Minish Cap'
+description: 'PC port of The Legend of Zelda: The Minish Cap'
+category: ports
+source:
+  type: github-release
+  repo: 999sian/tmc
+asset: '*linux-x86_64*.tar.gz'
+install:
+  type: extract
+  dest: ${APPDIR}/minishcap
+  executables: [tmc_pc]

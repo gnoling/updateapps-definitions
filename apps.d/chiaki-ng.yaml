@@ -1,0 +1,10 @@
+name: Chiaki-NG
+description: PS4/PS5 Remote Play streaming client
+category: emulators
+source:
+  type: github-release
+  repo: streetpea/chiaki-ng
+asset: chiaki-ng.AppImage_x86_64
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/chiaki-ng.AppImage

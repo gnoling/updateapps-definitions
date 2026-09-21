@@ -1,0 +1,15 @@
+name: Obsidian
+description: Markdown-based knowledge base / note-taking app
+category: tools
+notes: |
+  The regex skips the arm64 AppImage. apk-only mobile releases land in the same repo, hence
+  skip_unmatched.
+source:
+  type: github-release
+  repo: obsidianmd/obsidian-releases
+  skip_unmatched: true
+asset:
+  regex: '^Obsidian-[0-9.]+\.AppImage$'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/Obsidian.AppImage

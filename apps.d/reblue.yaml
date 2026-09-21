@@ -1,0 +1,12 @@
+name: 're:Blue'
+description: Native PC rebuild of Blue Dragon (Xbox 360) via static recompilation
+category: ports
+source:
+  type: github-release
+  repo: zolaware/reblue
+  channel: stable
+  version_from: tag
+asset: '*x86_64.AppImage'
+install:
+  type: file
+  dest: ${APPDIR}/reblue/reblue.AppImage

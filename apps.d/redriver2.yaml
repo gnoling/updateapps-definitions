@@ -1,0 +1,11 @@
+name: REDRIVER2
+description: PC port of Driver 2 reverse-engineered from the PlayStation original
+category: ports
+source:
+  type: github-release
+  repo: OpenDriver2/REDRIVER2
+asset: REDRIVER2_Linux_Release.tar.gz
+install:
+  type: extract
+  dest: ${APPDIR}/REDRIVER2
+  executables: [REDRIVER2]

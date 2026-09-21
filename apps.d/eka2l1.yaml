@@ -1,0 +1,10 @@
+name: EKA2L1
+description: Symbian OS / Nokia N-Gage emulator
+category: emulators
+source:
+  type: github-release
+  repo: EKA2L1/EKA2L1
+asset: EKA2L1-Linux-x86_64.AppImage
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/EKA2L1.AppImage

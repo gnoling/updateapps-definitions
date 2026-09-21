@@ -1,0 +1,16 @@
+name: DREAMM
+description: DOS Retro-Engine Emulator for Aaron Giles' Multi-Media games (LucasArts adventure runtime)
+category: ports
+notes: |
+  Releases are on the front page; /beta/ was retired when 4.0 shipped. The links use
+  backslashes (href='releases\dreamm-4.0-linux-x64.tgz'), resolved as a browser would.
+source:
+  type: html
+  url: https://dreamm.aarongiles.com/
+  select: 'a[href*="linux-x64"]'
+  attr: href
+install:
+  type: extract
+  dest: ${APPDIR}/DREAMM
+  strip: 1
+  executables: [dreamm]

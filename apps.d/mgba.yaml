@@ -1,0 +1,11 @@
+name: mGBA
+description: Game Boy Advance Emulator
+category: emulators
+notes: |
+  One fixed URL whose content is replaced by each nightly build; the ETag is the version.
+source:
+  type: http-etag
+  url: https://s3.amazonaws.com/mgba/mGBA-build-latest-appimage-x64.appimage
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/mGBA.AppImage

@@ -1,0 +1,13 @@
+name: BigInstinct
+description: Killer Instinct arcade emulator by Rich Whitehouse
+category: emulators
+source:
+  type: html
+  url: https://www.richwhitehouse.com/ki/index.php?content=download
+  select: 'body > a[href*="Linux64"]'
+  attr: href
+install:
+  type: extract
+  dest: ${APPDIR}/biginstinct
+  strip: 1
+  executables: [biginstinct]

@@ -1,0 +1,10 @@
+name: shadPS4 Qt Launcher
+description: Qt launcher for the shadPS4 PlayStation 4 emulator
+category: emulators
+source:
+  type: github-release
+  repo: shadps4-emu/shadps4-qtlauncher
+asset: 'shadPS4QtLauncher-linux-qt-*.zip'
+install:
+  type: extract-one
+  dest: ${APPIMAGEDIR}/shadPS4QtLauncher.AppImage

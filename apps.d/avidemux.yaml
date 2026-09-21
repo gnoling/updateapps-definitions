@@ -1,0 +1,11 @@
+name: Avidemux
+description: Video editor (nightly build)
+category: tools
+source:
+  type: html
+  url: https://www.avidemux.org/nightly/appImage/
+  select: 'tr.file:last-of-type > td:nth-child(1) > a:nth-child(1)'
+  attr: href
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/avidemux.AppImage

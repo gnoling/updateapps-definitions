@@ -1,0 +1,10 @@
+name: OpenRA - Tiberian Dawn
+description: 'Open-source remake of Command & Conquer: Tiberian Dawn'
+category: ports
+source:
+  type: github-release
+  repo: OpenRA/OpenRA
+asset: 'OpenRA-Tiberian-Dawn*x86_64.AppImage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/OpenRA-Tiberian-Dawn-x86_64.AppImage

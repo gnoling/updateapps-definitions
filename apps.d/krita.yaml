@@ -1,0 +1,11 @@
+name: Krita
+description: Professional free and open source digital painting program
+category: tools
+source:
+  type: html
+  url: https://krita.org/en/download/
+  select: '#linux-download > a:nth-child(1)'
+  attr: href
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/krita.AppImage

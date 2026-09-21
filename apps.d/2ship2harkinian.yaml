@@ -1,0 +1,11 @@
+name: 2 Ship 2 Harkinian
+description: 'Native PC port of The Legend of Zelda: Majora''s Mask'
+category: ports
+source:
+  type: github-release
+  repo: HarbourMasters/2ship2harkinian
+asset: '*Linux.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/2ship2harkinian
+  executables: [2ship.appimage]

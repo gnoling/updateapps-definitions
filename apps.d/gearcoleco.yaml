@@ -1,0 +1,11 @@
+name: Gearcoleco
+description: ColecoVision emulator
+category: emulators
+source:
+  type: github-release
+  repo: drhelius/Gearcoleco
+asset: '*ubuntu*24.04-x64.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/gearcoleco
+  executables: [gearcoleco]

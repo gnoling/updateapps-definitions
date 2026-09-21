@@ -1,0 +1,10 @@
+name: ares
+description: Multi-system retro console emulator
+category: emulators
+source:
+  type: github-release
+  repo: bmsuseluda/ares-emu-appimage
+asset: '*x86_64.AppImage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/ares.AppImage

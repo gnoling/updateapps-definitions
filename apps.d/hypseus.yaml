@@ -1,0 +1,12 @@
+name: Hypseus Singe
+description: Multiple Arcade Laserdisc Emulator (Dragon's Lair, Space Ace, Singe games)
+category: emulators
+source:
+  type: github-release
+  repo: DirtBagXon/hypseus-singe
+asset: 'hypseus-singe_*_AppImage.tar.gz'
+install:
+  type: extract
+  dest: ${APPDIR}/hypseus
+  strip: 1
+  executables: [hypseus.bin]

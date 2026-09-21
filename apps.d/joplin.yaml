@@ -1,0 +1,10 @@
+name: Joplin
+description: Open-source note-taking and to-do app with sync
+category: tools
+source:
+  type: github-release
+  repo: laurent22/joplin
+asset: 'Joplin-*.AppImage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/Joplin.AppImage

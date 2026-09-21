@@ -1,0 +1,11 @@
+name: 'Kameo: Elements of Power (RePowered)'
+description: 'PC port of the Xbox 360 game Kameo: Elements of Power (vanilla build - the TU build renders black)'
+category: ports
+source:
+  type: github-release
+  repo: birabittoh/KameoRePowered
+asset: 'kameorepowered-v*-linux-x64.tar.gz'
+install:
+  type: extract
+  dest: ${APPDIR}/kameo
+  executables: [kameorepowered]

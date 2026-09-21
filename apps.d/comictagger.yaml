@@ -1,0 +1,10 @@
+name: ComicTagger
+description: Comic book metadata tagging and management tool
+category: tools
+source:
+  type: github-release
+  repo: comictagger/comictagger
+asset: ComicTagger-x86_64.AppImage
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/ComicTagger-x86_64.AppImage

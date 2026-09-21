@@ -1,0 +1,11 @@
+name: Super Mario Bros. Remastered
+description: Fan remaster of the original Super Mario Bros. built in Godot
+category: ports
+source:
+  type: github-release
+  repo: JHDev2006/Super-Mario-Bros.-Remastered-Public
+asset: Linux.zip
+install:
+  type: extract
+  dest: ${APPDIR}/smb_remastered
+  executables: [SMB1R.x86_64]

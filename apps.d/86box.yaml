@@ -1,0 +1,15 @@
+name: 86Box
+description: Emulator of classic IBM PC compatibles and DOS-era hardware
+category: tools
+notes: |
+  Nightly CI build. The artifact name embeds the workflow-run id, so it's matched by regex.
+source:
+  type: github-actions
+  repo: 86Box/86Box
+  workflow: CMake (Linux)
+  branch: master
+  artifact_regex: '^86Box-Qt6-NDR-Dev-UbuntuJammy-x86_64-'
+install:
+  type: extract-one
+  member: bin/86Box
+  dest: ${APPDIR}/86Box/86Box

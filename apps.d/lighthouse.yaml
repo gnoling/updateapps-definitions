@@ -1,0 +1,11 @@
+name: Lighthouse (Banjo-Kazooie)
+description: Harbour Masters native PC port of Banjo-Kazooie
+category: ports
+source:
+  type: github-release
+  repo: HarbourMasters/Lighthouse
+asset: '*Linux.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/lighthouse
+  executables: [lighthouse.appimage]

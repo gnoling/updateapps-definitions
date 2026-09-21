@@ -1,0 +1,9 @@
+name: WinBoat
+description: Windows application compatibility and launcher tool
+category: tools
+source:
+  type: github-release
+  repo: TibixDev/winboat
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/winboat.AppImage

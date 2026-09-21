@@ -1,0 +1,16 @@
+name: FinalBurn Neo
+description: Multi-system arcade emulator (Neo Geo, CPS1/2/3, and many arcade boards)
+category: emulators
+notes: |
+  Linux builds exist only in the rolling 'latest' release, which CI deletes and recreates
+  on every merge; versioned by publish time. While it's missing the app is skipped.
+source:
+  type: github-release
+  repo: finalburnneo/FBNeo
+  tag: latest
+  version_from: published_at
+asset: linux-sdl2-x86_64.zip
+install:
+  type: extract
+  dest: ${APPDIR}/fbneo
+  executables: [fbneo]

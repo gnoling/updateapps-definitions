@@ -1,0 +1,10 @@
+name: shadPS4
+description: Sony PlayStation 4 emulator
+category: emulators
+source:
+  type: github-release
+  repo: shadps4-emu/shadPS4
+asset: '*linux-sdl-*.zip'
+install:
+  type: extract-one
+  dest: ${APPIMAGEDIR}/shadPS4.AppImage

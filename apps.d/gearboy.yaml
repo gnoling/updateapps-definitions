@@ -1,0 +1,11 @@
+name: Gearboy
+description: Nintendo Game Boy and Game Boy Color emulator
+category: emulators
+source:
+  type: github-release
+  repo: drhelius/Gearboy
+asset: '*ubuntu*24.04*x64.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/gearboy
+  executables: [gearboy]

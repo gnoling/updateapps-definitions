@@ -1,0 +1,10 @@
+name: SheepShaver
+description: PowerPC Macintosh emulator for running classic Mac OS
+category: emulators
+source:
+  type: github-release
+  repo: Korkman/macemu-appimage-builder
+asset: SheepShaver-x86_64.AppImage
+install:
+  type: file
+  dest: ${APPDIR}/SheepShaver/SheepShaver-x86_64.AppImage

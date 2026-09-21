@@ -1,0 +1,11 @@
+name: DOSBox Pure Unleashed
+description: Standalone DOSBox Pure build for running DOS games and applications
+category: tools
+source:
+  type: github-release
+  repo: schellingb/dosbox-pure-unleashed
+asset: '*linux-x64*'
+install:
+  type: extract
+  dest: ${APPDIR}/dosboxpure
+  executables: [DOSBoxPure]

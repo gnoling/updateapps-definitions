@@ -1,0 +1,15 @@
+name: OpenTDU
+description: Open-source reimplementation of Test Drive Unlimited (overlay for an existing install)
+category: ports
+notes: |
+  Tag is nightly_<sha>, rebuilt most days.
+  NOT standalone: an OVERLAY whose EURO/ must be merged into a real TDU install (assets
+  auto-extract from TestDriveUnlimited.exe there). No desktop launcher until one exists.
+source:
+  type: github-release
+  repo: opentestdriveunlimited/OpenTestDriveUnlimited
+asset: opentdu_release_linux_vulkan.zip
+install:
+  type: extract
+  dest: ${APPDIR}/opentdu
+  executables: [opentdu_unix_vulkan, opentdu_assetextractor_unix, opentdu_zcuncompressor_unix, opentdu_savedecryptor_unix]

@@ -1,0 +1,12 @@
+name: Lime3DS
+description: Nintendo 3DS emulator (Citra fork)
+category: emulators
+enabled: false
+source:
+  type: github-release
+  repo: Lime3DS/lime3ds-archive
+asset: '*linux-appimage.tar.gz'
+install:
+  type: extract
+  dest: ${APPDIR}/lime3ds
+  strip: 1

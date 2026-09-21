@@ -1,0 +1,10 @@
+name: gopher64
+description: Nintendo 64 emulator written in Rust
+category: emulators
+source:
+  type: github-release
+  repo: gopher64/gopher64
+asset: gopher64-linux-x86_64
+install:
+  type: file
+  dest: ${APPDIR}/gopher64/gopher64

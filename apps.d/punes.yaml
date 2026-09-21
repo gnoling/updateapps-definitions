@@ -1,0 +1,9 @@
+name: puNES
+description: Nintendo Entertainment System Emulator
+category: emulators
+source:
+  type: github-release
+  repo: punesemu/puNES
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/puNES.AppImage

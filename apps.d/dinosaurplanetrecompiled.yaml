@@ -1,0 +1,10 @@
+name: 'Dinosaur Planet: Recompiled'
+description: PC port of the unreleased N64 game Dinosaur Planet
+category: ports
+source:
+  type: github-release
+  repo: DinosaurPlanetRecomp/dino-recomp
+asset: '*Linux-x64.AppImage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/DinosaurPlanetRecompiled.AppImage

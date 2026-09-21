@@ -1,0 +1,10 @@
+name: PPSSPP
+description: Sony PlayStation Portable (PSP) Emulator
+category: emulators
+source:
+  type: github-release
+  repo: hrydgard/ppsspp
+asset: '*anylinux-x86_64.AppImage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/ppsspp

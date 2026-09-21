@@ -1,0 +1,12 @@
+name: 'Harvest Moon 64: Recompiled'
+description: PC port of Harvest Moon 64 via N64 static recompilation
+category: ports
+source:
+  type: github-release
+  repo: HarvestMoon64Recomp/HarvestMoon64Recomp
+asset: '*Linux-X64.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/harvestmoon64
+  nested: true
+  executables: [HarvestMoon64Recompiled]

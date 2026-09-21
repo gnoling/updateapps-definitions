@@ -1,0 +1,10 @@
+name: Vita3K
+description: PlayStation Vita Emulator
+category: emulators
+source:
+  type: github-release
+  repo: Vita3K/Vita3K
+asset: Vita3K-x86_64.AppImage
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/Vita3K-x86_64.AppImage

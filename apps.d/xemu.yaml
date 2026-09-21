@@ -1,0 +1,10 @@
+name: xemu
+description: Original Microsoft Xbox game console emulator
+category: emulators
+source:
+  type: github-release
+  repo: xemu-project/xemu
+asset: '*[0-9a-f]-x86_64.AppImage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/xemu.AppImage

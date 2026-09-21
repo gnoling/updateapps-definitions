@@ -1,0 +1,12 @@
+name: Ironwail
+description: High-performance Quake source port for modern hardware and large maps
+category: ports
+source:
+  type: github-release
+  repo: andrei-drexler/ironwail
+asset: 'ironwail-*-linux-x64.tar.gz'
+install:
+  type: extract
+  dest: ${APPDIR}/ironwail
+  strip: 1
+  executables: [ironwail]

@@ -1,0 +1,10 @@
+name: Flycast Dojo
+description: Sega Dreamcast emulator with rollback netplay support
+category: emulators
+source:
+  type: github-release
+  repo: blueminder/flycast-dojo
+asset: 'linux*'
+install:
+  type: extract-one
+  dest: ${APPIMAGEDIR}/flycast-dojo-x86_64.AppImage

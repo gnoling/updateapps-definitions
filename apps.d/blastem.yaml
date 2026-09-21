@@ -1,0 +1,13 @@
+name: BlastEm
+description: High-accuracy Sega Genesis / Mega Drive emulator
+category: emulators
+source:
+  type: html
+  url: https://www.retrodev.com/blastem/nightlies/
+  select: 'a[href*="blastem64"]'
+  attr: href
+install:
+  type: extract
+  dest: ${APPDIR}/blastem
+  strip: 1
+  executables: [blastem]

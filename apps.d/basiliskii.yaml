@@ -1,0 +1,10 @@
+name: Basilisk II
+description: 68k Macintosh emulator for running classic Mac OS (7.x - 8.1)
+category: emulators
+source:
+  type: github-release
+  repo: Korkman/macemu-appimage-builder
+asset: BasiliskII-x86_64.AppImage
+install:
+  type: file
+  dest: ${APPDIR}/BasiliskII/BasiliskII-x86_64.AppImage

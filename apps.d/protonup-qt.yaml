@@ -1,0 +1,9 @@
+name: ProtonUp-Qt
+description: Install and manage Proton-GE and other Wine/Proton compatibility layers
+category: tools
+source:
+  type: github-release
+  repo: DavidoTek/ProtonUp-Qt
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/ProtonUp-Qt.AppImage

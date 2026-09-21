@@ -1,0 +1,12 @@
+name: 'Mystical Ninja Starring Goemon: Recompiled'
+description: PC port of Mystical Ninja Starring Goemon via N64 static recompilation
+category: ports
+notes: |
+  Tracks releases: CI runs are rare and artifacts expire after 90 days.
+source:
+  type: github-release
+  repo: klorfmorf/Goemon64Recomp
+asset: Goemon64Recompiled-AppImage-X64-Release.zip
+install:
+  type: extract-one
+  dest: ${APPIMAGEDIR}/Goemon64Recompiled.AppImage

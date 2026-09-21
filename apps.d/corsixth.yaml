@@ -1,0 +1,10 @@
+name: CorsixTH (Theme Hospital)
+description: Open-source reimplementation of the Bullfrog game Theme Hospital
+category: ports
+source:
+  type: github-release
+  repo: CorsixTH/CorsixTH
+asset: '*x86_64.AppImage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/CorsixTH.AppImage

@@ -1,0 +1,12 @@
+name: Inkscape
+description: Professional vector graphics editor (SVG)
+category: tools
+source:
+  type: html
+  url: https://inkscape.org/release/all/gnulinux/appimage/
+  select: 'a[href*=".AppImage"]'
+  attr: href
+  exclude_regex: '\.sig$'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/Inkscape.AppImage

@@ -1,0 +1,10 @@
+name: PsyDoom
+description: Reverse-engineered PC port of PlayStation Doom and Final Doom
+category: ports
+source:
+  type: github-release
+  repo: BodbDearg/PsyDoom
+asset: '*Linux_x86_64.AppImage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/PsyDoom.AppImage

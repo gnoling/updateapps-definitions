@@ -1,0 +1,9 @@
+name: OpenGOAL Launcher
+description: Launcher for OpenGOAL - the Jak and Daxter PC port project
+category: ports
+source:
+  type: github-release
+  repo: open-goal/launcher
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/open-goal-launcher.AppImage

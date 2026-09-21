@@ -1,0 +1,12 @@
+name: Fujisan
+description: Atari 8-bit computer emulator with built-in FujiNet support
+category: emulators
+source:
+  type: github-release
+  repo: pedgarcia/fujisan
+asset: '*linux-x64.tar.gz'
+install:
+  type: extract
+  dest: ${APPDIR}/fujisan
+  strip: 1
+  executables: [fujisan.sh, bin/Fujisan, bin/fujinet-pc, bin/fastbasic]

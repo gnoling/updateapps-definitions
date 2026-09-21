@@ -1,0 +1,12 @@
+name: Supermodel
+description: Sega Model 3 arcade system emulator
+category: emulators
+source:
+  type: github-release
+  repo: trzy/Supermodel
+asset: '*-linux.tar.gz'
+install:
+  type: extract
+  dest: ${APPDIR}/supermodel
+  strip: 1
+  executables: [supermodel]

@@ -1,0 +1,11 @@
+name: BizHawk
+description: Multi-system emulator focused on TAS (tool-assisted speedrun) creation
+category: emulators
+source:
+  type: github-release
+  repo: TASEmulators/BizHawk
+asset: '*linux-x64.tar.gz'
+install:
+  type: extract
+  dest: ${APPDIR}/bizhawk
+  executables: [EmuHawkMono.sh]

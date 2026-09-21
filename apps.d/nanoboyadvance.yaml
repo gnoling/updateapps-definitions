@@ -1,0 +1,19 @@
+name: NanoBoyAdvance
+description: Cycle-accurate Game Boy Advance emulator
+category: emulators
+enabled: false
+notes: |
+  Archived upstream (June 2026) and its CI artifacts have expired. Disabled: a CI nightly,
+  if installed, is newer than this final release (v1.8.3), which ships a plain
+  NanoBoyAdvance binary rather than the nightlies' AppImage. config.toml is user settings.
+source:
+  type: github-release
+  repo: nba-emu/NanoBoyAdvance
+  channel: stable
+  version_from: tag
+asset: NanoBoyAdvance-Linux-amd64.zip
+install:
+  type: extract
+  dest: ${APPDIR}/nanoboyadvance
+  exclude: [config.toml]
+  executables: [NanoBoyAdvance]

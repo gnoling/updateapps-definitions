@@ -1,0 +1,11 @@
+name: PaperBoat
+description: Native PC port of Paper Mario 64
+category: ports
+source:
+  type: github-release
+  repo: HarbourMasters/PaperBoat
+asset: '*Linux.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/paperboat
+  executables: [Paperboat.AppImage]

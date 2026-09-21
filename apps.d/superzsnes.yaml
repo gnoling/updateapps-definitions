@@ -1,0 +1,12 @@
+name: SUPERZSNES
+description: Modern Unity-based revival of the ZSNES Super Nintendo emulator
+category: emulators
+source:
+  type: html
+  url: https://www.zsnes.com/
+  select: 'a[href$=".tar.gz"]'
+  attr: href
+install:
+  type: extract
+  dest: ${APPDIR}/superzsnes
+  executables: [SUPERZSNES]

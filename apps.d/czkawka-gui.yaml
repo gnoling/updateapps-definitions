@@ -1,0 +1,10 @@
+name: Czkawka
+description: Fast duplicate file, empty folder, and similar image finder
+category: tools
+source:
+  type: github-release
+  repo: qarmin/czkawka
+asset: linux_czkawka_gui_x86_64
+install:
+  type: file
+  dest: ${APPDIR}/czkawka/czkawka_gui

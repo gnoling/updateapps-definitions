@@ -1,0 +1,10 @@
+name: Woof!
+description: Vanilla-feel Doom source port with modern conveniences
+category: ports
+source:
+  type: github-release
+  repo: fabiangreffrath/woof
+asset: 'Woof-*-Linux.[Aa]pp[Ii]mage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/Woof.AppImage

@@ -1,0 +1,16 @@
+name: Citron
+description: Nintendo Switch emulator
+category: emulators
+notes: |
+  citron-neo/CI is the live source (Zephyron-Dev/Citron-CI and git.citron-emu.org are dead).
+  '_v3' is the PGO build for x86-64-v3 CPUs.
+source:
+  type: github-release
+  repo: citron-neo/CI
+  tag: nightly-linux
+  version_from: asset.name
+asset:
+  regex: '^citron_nightly-.*-linux-x86_64_v3\.AppImage$'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/Citron.AppImage

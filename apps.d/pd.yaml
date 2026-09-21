@@ -1,0 +1,16 @@
+name: Perfect Dark
+description: Modern native PC port of Perfect Dark, decompiled from the N64 original
+category: ports
+notes: |
+  Pinned to upstream's branch (port). Most successful runs in this repo are pull-request
+  builds from forks, which are never used.
+source:
+  type: github-actions
+  repo: perfect-dark-pc-port/perfect_dark
+  workflow: C/C++ CI
+  branch: port
+  artifact: pd-x86_64-linux
+install:
+  type: extract
+  dest: ${APPDIR}/perfect-dark-pc-port
+  executables: [pd.x86_64, pd.pal.x86_64, pd.jpn.x86_64]

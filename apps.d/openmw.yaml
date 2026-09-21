@@ -1,0 +1,14 @@
+name: OpenMW
+description: 'Open-source reimplementation of The Elder Scrolls III: Morrowind'
+category: ports
+source:
+  type: github-release
+  repo: OpenMW/openmw
+  channel: stable
+  version_from: tag
+asset: '*Linux-64Bit.tar.gz'
+install:
+  type: extract
+  dest: ${APPDIR}/openmw
+  strip: 1
+  executables: ['*.x86_64']

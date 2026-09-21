@@ -1,0 +1,13 @@
+name: SkyEmu
+description: Game Boy, Game Boy Advance, and Nintendo DS emulator
+category: emulators
+notes: |
+  Upstream also publishes nightlies; this tracks releases.
+source:
+  type: github-release
+  repo: skylersaleh/SkyEmu
+asset: '*-Linux.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/skyemu
+  executables: [SkyEmu]

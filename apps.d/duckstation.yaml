@@ -1,0 +1,10 @@
+name: DuckStation
+description: Fast PlayStation 1 emulator
+category: emulators
+source:
+  type: github-release
+  repo: stenzek/duckstation
+asset: '*x64.AppImage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/DuckStation-x64.AppImage

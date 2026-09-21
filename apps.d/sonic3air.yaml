@@ -1,0 +1,14 @@
+name: Sonic 3 A.I.R.
+description: 'Sonic 3: Angel Island Revisited - enhanced PC port of Sonic 3 & Knuckles'
+category: ports
+source:
+  type: github-release
+  repo: Eukaryot/sonic3air
+  channel: stable
+  version_from: tag
+asset: sonic3air_game.tar.gz
+install:
+  type: extract
+  dest: ${APPDIR}/sonic3air_game
+  strip: 1
+  executables: [sonic3air_linux]

@@ -1,0 +1,10 @@
+name: 'Bomberman 64: Recompiled'
+description: PC port of Bomberman 64 via N64 static recompilation
+category: ports
+source:
+  type: github-release
+  repo: RevoSucks/BM64Recomp
+asset: BM64Recompiled-AppImage-X64-Release.zip
+install:
+  type: extract-one
+  dest: ${APPIMAGEDIR}/BM64Recompiled.AppImage

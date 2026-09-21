@@ -1,0 +1,11 @@
+name: 'Banjo-Kazooie: Recompiled'
+description: PC port of Banjo-Kazooie via N64 static recompilation
+category: ports
+source:
+  type: github-release
+  repo: BanjoRecomp/BanjoRecomp
+asset: '*Linux-X64.tar.gz'
+install:
+  type: extract
+  dest: ${APPDIR}/BanjoRecompiled
+  executables: [BanjoRecompiled]

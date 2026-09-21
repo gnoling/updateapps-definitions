@@ -1,0 +1,11 @@
+name: Ghost Ship
+description: Native PC port of Super Mario 64
+category: ports
+source:
+  type: github-release
+  repo: HarbourMasters/Ghostship
+asset: '*Linux.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/ghostship
+  executables: [ghostship.appimage]

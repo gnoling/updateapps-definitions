@@ -1,0 +1,10 @@
+name: Golden Balloon
+description: A native port of the 1997 Nintendo 64 kart racer, Diddy Kong Racing
+category: ports
+source:
+  type: github-release
+  repo: akratch/goldenballoon
+asset: '*x86_64.AppImage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/Golden-Balloon.AppImage

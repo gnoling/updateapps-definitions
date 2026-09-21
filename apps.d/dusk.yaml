@@ -1,0 +1,10 @@
+name: Dusk (Twilight Princess)
+description: 'Open-source PC port of The Legend of Zelda: Twilight Princess'
+category: ports
+source:
+  type: github-release
+  repo: TwilitRealm/dusk
+asset: '*x86_64.AppImage'
+install:
+  type: file
+  dest: ${APPDIR}/dusk/Dusk.AppImage

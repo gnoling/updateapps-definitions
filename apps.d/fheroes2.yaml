@@ -1,0 +1,11 @@
+name: Heroes of Might and Magic II (fheroes2)
+description: Open-source reimplementation of Heroes of Might and Magic II
+category: ports
+source:
+  type: github-release
+  repo: ihhub/fheroes2
+asset: fheroes2_ubuntu_x86-64_SDL2.zip
+install:
+  type: extract
+  dest: ${APPDIR}/fheroes2
+  executables: [fheroes2]

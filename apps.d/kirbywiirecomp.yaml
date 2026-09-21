@@ -1,0 +1,12 @@
+name: 'Kirby''s Return to Dream Land: Recompiled'
+description: PC port of Kirby's Return to Dream Land via Wii recompilation (ModernGekko)
+category: ports
+source:
+  type: github-release
+  repo: ExpansionPak/ModernGekko
+asset: '*Linux-x86_64.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/KirbyWiiRecomp
+  strip: 1
+  executables: [KirbyWiiRecomp, KirbyRecomp]

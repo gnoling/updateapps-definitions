@@ -1,0 +1,18 @@
+name: Starship
+description: Native PC port of Star Fox 64
+category: ports
+notes: |
+  Tracks releases: upstream's nightly CI (GenerateBuilds) has failed on main since June
+  2026 and older artifacts have expired. The newest release (v2.0.0) predates the last
+  nightly, so mark-current first if a nightly is installed. To go back to nightlies:
+    source: {type: github-actions, repo: HarbourMasters/Starship, workflow: GenerateBuilds,
+             branch: main, artifact: Starship-linux}
+source:
+  type: github-release
+  repo: HarbourMasters/Starship
+  channel: stable
+asset: '*-Linux.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/starship
+  executables: [starship.appimage]

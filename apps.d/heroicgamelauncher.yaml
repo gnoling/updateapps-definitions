@@ -1,0 +1,9 @@
+name: Heroic Games Launcher
+description: An alternative GOG and Epic Games Launcher for Linux, Windows and macOS
+category: tools
+source:
+  type: github-release
+  repo: Heroic-Games-Launcher/HeroicGamesLauncher
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/HeroicGameLauncher.AppImage

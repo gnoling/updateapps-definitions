@@ -1,0 +1,11 @@
+name: Delta Patcher
+description: Create and apply xdelta binary patches
+category: emulators
+source:
+  type: github-release
+  repo: marco-calautti/DeltaPatcher
+asset: linuxGTK3_bin_x86_64.zip
+install:
+  type: extract
+  dest: ${APPDIR}/deltapatcher
+  executables: [DeltaPatcher]

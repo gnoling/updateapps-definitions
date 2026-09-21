@@ -1,0 +1,9 @@
+name: Augustus
+description: Enhanced open-source re-implementation of Caesar III
+category: ports
+source:
+  type: github-release
+  repo: Keriew/augustus
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/augustus.AppImage

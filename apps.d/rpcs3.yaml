@@ -1,0 +1,9 @@
+name: RPCS3
+description: Sony PlayStation 3 Emulator
+category: emulators
+source:
+  type: github-release
+  repo: RPCS3/rpcs3-binaries-linux
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/rpcs3.AppImage

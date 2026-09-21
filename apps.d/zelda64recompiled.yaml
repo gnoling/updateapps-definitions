@@ -1,0 +1,12 @@
+name: 'Zelda 64: Recompiled'
+description: 'PC port of The Legend of Zelda: Majora''s Mask via N64 recompilation'
+category: ports
+source:
+  type: github-release
+  repo: Zelda64Recomp/Zelda64Recomp
+asset: '*Linux-X64.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/zelda64recompiled
+  nested: true
+  executables: [Zelda64Recompiled]

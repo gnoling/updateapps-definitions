@@ -1,0 +1,9 @@
+name: LosslessCut
+description: Lossless video and audio editor for trimming and cutting media files
+category: tools
+source:
+  type: github-release
+  repo: mifi/lossless-cut
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/LosslessCut-linux-x86_64.AppImage

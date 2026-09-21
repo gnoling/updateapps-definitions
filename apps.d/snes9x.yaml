@@ -1,0 +1,17 @@
+name: Snes9x
+description: Super Nintendo Entertainment System Emulator
+category: emulators
+enabled: false
+notes: |
+  Linux nightlies came only from Cirrus CI, which shut down on 1 June 2026; upstream builds
+  Linux binaries nowhere now. Disabled: the last release (1.63, 2024) is far older than any
+  nightly already installed. A candidate for source builds.
+source:
+  type: github-release
+  repo: snes9xgit/snes9x
+  channel: stable
+  version_from: tag
+asset: 'Snes9x-*-x86_64.AppImage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/Snes9x.AppImage

@@ -1,0 +1,11 @@
+name: Gearsystem
+description: Sega Master System, Game Gear, and SG-1000 emulator
+category: emulators
+source:
+  type: github-release
+  repo: drhelius/Gearsystem
+asset: '*ubuntu*24.04*x64.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/gearsystem
+  executables: [gearsystem]

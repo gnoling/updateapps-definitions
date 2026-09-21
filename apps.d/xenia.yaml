@@ -1,0 +1,15 @@
+name: Xenia
+description: Xbox 360 emulator (canary/development build)
+category: emulators
+notes: |
+  The binary sits at build/bin/Linux/Release/xenia_canary inside the tarball, so it's taken
+  by name; the portable config beside the installed binary is never touched. Every release
+  in this repo is tagged on one commit, so they're ordered by true creation time.
+source:
+  type: github-release
+  repo: xenia-canary/xenia-canary-releases
+asset: 'xenia_canary_linux.tar*xz'
+install:
+  type: extract-one
+  member: xenia_canary
+  dest: ${APPDIR}/xenia/xenia_canary

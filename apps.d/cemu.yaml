@@ -1,0 +1,16 @@
+name: Cemu
+description: Nintendo Wii U Emulator
+category: emulators
+notes: |
+  Cemu's artifact holds a date-stamped AppImage, hence the member glob.
+source:
+  type: github-actions
+  repo: cemu-project/Cemu
+  workflow: Build check
+  branch: main
+  event: push
+  artifact: cemu-appimage-x64
+install:
+  type: extract-one
+  member: 'Cemu-*.AppImage'
+  dest: ${APPIMAGEDIR}/Cemu.AppImage

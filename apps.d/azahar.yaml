@@ -1,0 +1,10 @@
+name: Azahar
+description: An open-source 3DS emulator project based on Citra
+category: emulators
+source:
+  type: github-release
+  repo: azahar-emu/azahar
+asset: azahar.AppImage
+install:
+  type: file
+  dest: ${APPDIR}/azahar/azahar.AppImage

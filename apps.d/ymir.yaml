@@ -1,0 +1,11 @@
+name: Ymir
+description: Sega Saturn emulator
+category: emulators
+source:
+  type: github-release
+  repo: StrikerX3/Ymir
+asset: 'ymir-linux-x86_64-AVX2-*.tar.xz'
+install:
+  type: extract
+  dest: ${APPDIR}/ymir
+  executables: [ymir-sdl3]

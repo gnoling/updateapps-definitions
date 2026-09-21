@@ -1,0 +1,17 @@
+name: Severed Chains
+description: The Legend of Dragoon decompiled to Java — put all four PS1 discs in severedchains/isos
+category: ports
+notes: |
+  Rolling 'devbuild' tag with frozen release metadata, so the version is the asset's
+  updated_at. isos/, saves/ and mods/ in the install dir survive: extraction never deletes.
+source:
+  type: github-release
+  repo: Legend-of-Dragoon-Modding/Severed-Chains
+  tag: devbuild
+  version_from: asset.updated_at
+asset: Severed_Chains_Linux.tar.gz
+install:
+  type: extract
+  dest: ${APPDIR}/severedchains
+  strip: 1
+  executables: [launch, download-java]

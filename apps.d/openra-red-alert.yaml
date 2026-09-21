@@ -1,0 +1,10 @@
+name: OpenRA - Red Alert
+description: 'Open-source remake of Command & Conquer: Red Alert'
+category: ports
+source:
+  type: github-release
+  repo: OpenRA/OpenRA
+asset: 'OpenRA-Red-Alert*x86_64.AppImage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/OpenRA-Red-Alert-x86_64.AppImage

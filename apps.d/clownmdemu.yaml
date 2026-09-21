@@ -1,0 +1,10 @@
+name: ClownMDEmu
+description: Sega Genesis/Mega Drive Emulator
+category: emulators
+source:
+  type: github-release
+  repo: Clownacy/clownmdemu-frontend
+asset: '*x86_64.AppImage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/ClownMDEmu.AppImage

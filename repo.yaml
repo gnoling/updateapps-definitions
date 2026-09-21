@@ -1,0 +1,5 @@
+# A definition repository for updateapps (https://github.com/gnoling/updateapps).
+# Definitions are the *.yaml files in apps.d/, one app per file; the file name is the id.
+name: gnoling's apps
+description: Emulators, game ports and recompilations, and a few tools, mostly as AppImages and portable builds for x86-64 Linux.
+schema: 1

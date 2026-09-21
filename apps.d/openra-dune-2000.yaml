@@ -1,0 +1,10 @@
+name: OpenRA - Dune 2000
+description: Open-source remake of Dune 2000 using the OpenRA engine
+category: ports
+source:
+  type: github-release
+  repo: OpenRA/OpenRA
+asset: 'OpenRA-Dune-2000*x86_64.AppImage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/OpenRA-Dune-2000-x86_64.AppImage

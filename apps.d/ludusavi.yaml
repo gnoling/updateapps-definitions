@@ -1,0 +1,10 @@
+name: Ludusavi
+description: Backup and restore tool for PC game save files
+category: tools
+source:
+  type: github-release
+  repo: mtkennerly/ludusavi
+asset: '*linux.tar.gz'
+install:
+  type: extract-one
+  dest: ${APPDIR}/ludusavi/ludusavi

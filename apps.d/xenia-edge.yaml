@@ -1,0 +1,9 @@
+name: Xenia Edge
+description: Xbox 360 emulator for Linux
+category: emulators
+source:
+  type: github-release
+  repo: has207/xenia-edge
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/xenia_edge.AppImage

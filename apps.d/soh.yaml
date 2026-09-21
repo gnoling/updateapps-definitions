@@ -1,0 +1,13 @@
+name: Ship of Harkinian
+description: 'Native PC port of The Legend of Zelda: Ocarina of Time'
+category: ports
+source:
+  type: github-actions
+  repo: HarbourMasters/Shipwright
+  workflow: generate-builds
+  branch: develop
+  artifact: soh-linux
+install:
+  type: extract
+  dest: ${APPDIR}/shipwright
+  executables: [soh.appimage]

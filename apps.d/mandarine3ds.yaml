@@ -1,0 +1,12 @@
+name: Mandarine
+description: Nintendo 3DS emulator (fork of Citra)
+category: emulators
+source:
+  type: github-release
+  repo: mandarine3ds/mandarine
+asset: '*linux-appimage*.tar.gz'
+install:
+  type: extract
+  dest: ${APPDIR}/mandarin3ds
+  strip: 1
+  executables: [mandarine.AppImage]

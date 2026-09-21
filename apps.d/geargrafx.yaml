@@ -1,0 +1,11 @@
+name: Geargrafx
+description: NEC PC Engine / TurboGrafx-16 / SuperGrafx emulator
+category: emulators
+source:
+  type: github-release
+  repo: drhelius/Geargrafx
+asset: '*ubunt*24.04*x64.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/geargrafx
+  executables: [geargrafx]

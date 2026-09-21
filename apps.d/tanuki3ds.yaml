@@ -1,0 +1,13 @@
+name: Tanuki3DS
+description: Nintendo 3DS Emulator
+category: emulators
+source:
+  type: github-actions
+  repo: burhanr13/Tanuki3DS
+  workflow: CI
+  branch: master
+  artifact: Tanuki3DS-linux-appimage
+install:
+  type: extract-one
+  member: Tanuki3DS-x86_64.AppImage
+  dest: ${APPIMAGEDIR}/Tanuki3DS-x86_64.AppImage

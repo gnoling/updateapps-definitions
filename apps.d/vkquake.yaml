@@ -1,0 +1,10 @@
+name: vkQuake
+description: Vulkan-rendered Quake source port (QuakeSpasm-based)
+category: ports
+source:
+  type: github-release
+  repo: Novum/vkQuake
+asset: 'vkQuake-*x86_64.AppImage'
+install:
+  type: file
+  dest: ${APPDIR}/vkquake/vkquake.AppImage

@@ -1,0 +1,11 @@
+name: digiKam
+description: Professional photo management and editing application
+category: tools
+source:
+  type: html
+  url: https://files.kde.org/digikam/
+  select: 'a[href$="Qt6-x86-64.appimage"]'
+  attr: href
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/digikam.AppImage

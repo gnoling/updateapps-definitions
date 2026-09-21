@@ -1,0 +1,13 @@
+name: Ryujinx
+description: Nintendo Switch emulator
+category: emulators
+enabled: false
+notes: |
+  new home https://git.ryujinx.app/ryubing/ryujinx/-/releases
+source:
+  type: github-release
+  repo: Ryubing/Ryujinx
+asset: '*x64.AppImage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/Ryujinx.AppImage

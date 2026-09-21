@@ -1,0 +1,13 @@
+name: jgenesis
+description: Multi-system emulator for Sega Genesis, Master System, SNES, NES, Game Boy and more
+category: emulators
+notes: |
+  Since v0.14 upstream ships one executable instead of separate CLI and GUI builds. It
+  keeps the old GUI file name so existing launchers still work.
+source:
+  type: github-release
+  repo: jsgroth/jgenesis
+asset: 'jgenesis_*_x86_64.AppImage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/jgenesis-gui.AppImage

@@ -1,0 +1,14 @@
+name: 'Crash Bandicoot: Recompiled'
+description: PC port of Crash Bandicoot (NTSC-U, SCUS-94900) via RecompOne PS1 recompilation — needs your own .cue/.bin
+category: ports
+notes: |
+  The Linux asset is renamed most releases, so it's found by elimination: not .exe, not .apk.
+source:
+  type: github-release
+  repo: Matteo842/CrashBandicoot-Launcher
+asset:
+  glob: '*'
+  exclude_regex: '\.(exe|apk)$'
+install:
+  type: file
+  dest: ${APPDIR}/crashbandicoot/CrashBandicoot

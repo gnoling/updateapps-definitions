@@ -1,0 +1,12 @@
+name: FS-UAE
+description: Commodore Amiga emulator (UAE-based, all Amiga models)
+category: emulators
+source:
+  type: github-release
+  repo: FrodeSolheim/fs-uae
+asset: 'FS-UAE_*_Linux_x86-64.tar.xz'
+install:
+  type: extract
+  dest: ${APPDIR}/fs-uae
+  strip: 1
+  executables: [Linux/x86-64/fs-uae, Linux/x86-64/fs-uae-device-helper]

@@ -1,0 +1,11 @@
+name: Spaghetti Kart
+description: Native PC port of Mario Kart 64
+category: ports
+source:
+  type: github-release
+  repo: HarbourMasters/SpaghettiKart
+asset: '*linux.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/spaghettikart
+  executables: [spaghetti.appimage]

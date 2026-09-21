@@ -1,0 +1,11 @@
+name: 'Super Mario 64: CoopDX'
+description: Online co-op multiplayer PC port of Super Mario 64
+category: ports
+source:
+  type: github-release
+  repo: coop-deluxe/sm64coopdx
+asset: sm64coopdx_Linux.zip
+install:
+  type: extract
+  dest: ${APPDIR}/sm64coopdx
+  executables: [sm64coopdx, coopdx_updater]

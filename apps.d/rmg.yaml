@@ -1,0 +1,9 @@
+name: RMG
+description: Rosalie's Mupen GUI - Nintendo 64 emulator frontend
+category: emulators
+source:
+  type: github-release
+  repo: Rosalie241/RMG
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/RMG.AppImage

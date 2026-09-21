@@ -1,0 +1,13 @@
+name: TRX (Tomb Raider I-III)
+description: Open-source reimplementation and enhancement of Tomb Raider I-III and their expansions (unified TRX engine)
+category: ports
+source:
+  type: github-release
+  repo: LostArtefacts/TRX
+  channel: stable
+  version_from: tag
+asset: 'TRX-*-Linux.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/trx
+  executables: [TRX]

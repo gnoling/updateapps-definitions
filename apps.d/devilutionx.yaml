@@ -1,0 +1,10 @@
+name: DevilutionX (Diablo)
+description: Open-source reimplementation of Diablo 1 and Hellfire
+category: ports
+source:
+  type: github-release
+  repo: diasurgical/devilutionX
+asset: '*linux-x86_64.appimage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/devilutionx.AppImage

@@ -1,0 +1,10 @@
+name: OpenRCT2
+description: Open-source reimplementation of RollerCoaster Tycoon 2
+category: ports
+source:
+  type: github-release
+  repo: OpenRCT2/OpenRCT2
+asset: '*linux-x86_64.AppImage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/OpenRCT2.AppImage

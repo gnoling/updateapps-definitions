@@ -1,0 +1,11 @@
+name: Gearlynx
+description: Atari Lynx emulator
+category: emulators
+source:
+  type: github-release
+  repo: drhelius/Gearlynx
+asset: '*ubuntu*24.04*x64.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/gearlynx
+  executables: [gearlynx]

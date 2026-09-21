@@ -1,0 +1,13 @@
+name: BigPEmu
+description: Atari Jaguar and Jaguar CD emulator
+category: emulators
+source:
+  type: html
+  url: https://www.richwhitehouse.com/jaguar/index.php?content=download
+  select: 'body > a[href*="Linux64"]'
+  attr: href
+install:
+  type: extract
+  dest: ${APPDIR}/bigpemu
+  strip: 1
+  executables: [bigpemu]

@@ -1,0 +1,15 @@
+name: Sonic CD (RSDKv3)
+description: Sonic CD (2011) decompilation — needs Data.rsdk from the mobile release beside the binary
+category: ports
+notes: |
+  Retro Engine: tarball inside the zip; wants the matching Data.rsdk beside the binary.
+source:
+  type: github-release
+  repo: RSDKModding/RSDKv3-Decompilation
+asset: v3-linux.zip
+install:
+  type: extract
+  dest: ${APPDIR}/soniccd
+  strip: 1
+  nested: true
+  executables: [RSDKv3]

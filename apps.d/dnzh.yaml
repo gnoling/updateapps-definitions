@@ -1,0 +1,16 @@
+name: 'Duke Nukem: Zero Hour Recompiled'
+description: 'PC port of Duke Nukem: Zero Hour via N64 static recompilation'
+category: ports
+notes: |
+  Ships from the project site, version in the filename. *.json is excluded: user settings.
+source:
+  type: html
+  url: https://dnzh-overclocked.com/
+  select: 'a[href*="linux-x64-full"]'
+  attr: href
+install:
+  type: extract
+  dest: ${APPDIR}/DNZHRecompiled
+  strip: 1
+  exclude: ['*.json']
+  executables: [DNZHRecompiled, wizard.AppImage]

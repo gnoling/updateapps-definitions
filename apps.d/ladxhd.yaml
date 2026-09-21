@@ -1,0 +1,20 @@
+name: 'Zelda: Link''s Awakening DX HD'
+description: 'Fan-made HD remake of The Legend of Zelda: Link''s Awakening DX'
+category: ports
+notes: |
+  Upstream ships patchers that upgrade an install in place, and --headless is broken, so
+  this only stages the Lite patcher. The asset name ("Patcher-Lite" / "Patcher.Lite") and
+  the binary's name inside the 7z both drift, hence the loose patterns.
+source:
+  type: gitlab
+  project: bighead.0/ladxhd_updated
+asset:
+  regex: 'Patcher[.-]Lite-Linux-x64$'
+install:
+  type: extract-one
+  member: '*patcher*lite*'
+  member_ci: true
+  dest: ${APPDIR}/ladxhd/Patcher-Lite
+notice: |
+  run ${APPDIR}/ladxhd/Patcher-Lite
+  choose platform Linux + target OpenGL, then delete the patcher when done

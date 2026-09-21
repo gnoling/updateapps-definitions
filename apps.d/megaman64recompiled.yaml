@@ -1,0 +1,12 @@
+name: 'Mega Man 64: Recompiled'
+description: PC port of Mega Man 64 via N64 static recompilation
+category: ports
+source:
+  type: github-release
+  repo: MegaMan64Recomp/MegaMan64Recompiled
+asset: '*Linux-X64.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/MegaMan64Recompiled
+  nested: true
+  executables: [MegaMan64Recompiled]

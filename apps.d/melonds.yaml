@@ -1,0 +1,15 @@
+name: melonDS
+description: A fast and accurate Nintendo DS emulator
+category: emulators
+notes: |
+  The artifact is an un-zipped upload: the download is the AppImage itself, hence install
+  type file.
+source:
+  type: github-actions
+  repo: melonDS-emu/melonDS
+  workflow: Ubuntu
+  branch: master
+  artifact: melonDS-x86_64.AppImage
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/melonDS-x86_64.AppImage

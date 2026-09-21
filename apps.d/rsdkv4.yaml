@@ -1,0 +1,13 @@
+name: Sonic 1 & 2 (RSDKv4)
+description: Sonic the Hedgehog 1 & 2 (2013) decompilation — needs Data.rsdk from the mobile release
+category: ports
+source:
+  type: github-release
+  repo: RSDKModding/RSDKv4-Decompilation
+asset: v4-linux.zip
+install:
+  type: extract
+  dest: ${APPDIR}/sonic12
+  strip: 1
+  nested: true
+  executables: [RSDKv4]

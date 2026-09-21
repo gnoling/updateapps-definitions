@@ -1,0 +1,13 @@
+name: spotifyd
+description: Spotify Connect daemon
+category: tools
+notes: |
+  'full' is the D-Bus/MPRIS variant.
+source:
+  type: github-release
+  repo: Spotifyd/spotifyd
+asset: spotifyd-linux-x86_64-full.tar.gz
+install:
+  type: extract
+  dest: ${APPDIR}/spotifyd
+  executables: [spotifyd]

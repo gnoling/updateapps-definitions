@@ -1,0 +1,11 @@
+name: 'Snowboard Kids 2: Recompiled'
+description: PC port of Snowboard Kids 2 via N64 static recompilation
+category: ports
+source:
+  type: github-release
+  repo: cdlewis/snowboardkids2-recomp
+asset: '*Linux-X64-Release.tar.gz'
+install:
+  type: extract
+  dest: ${APPDIR}/snowboardkids2
+  executables: [SnowboardKids2Recompiled]

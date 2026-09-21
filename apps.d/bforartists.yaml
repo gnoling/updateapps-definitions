@@ -1,0 +1,10 @@
+name: Bforartists
+description: A fork of Blender focused on improved usability and user interface
+category: tools
+source:
+  type: github-release
+  repo: Bforartists/Bforartists
+asset: '*x86_64.AppImage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/Bforartists.AppImage
