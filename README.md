@@ -5,14 +5,10 @@ Definitions for [updateapps](https://github.com/gnoling/updateapps): one YAML fi
 
 ## Use it
 
-Add it to `~/.config/updateapps/config.yaml`, then `updateapps repos pull` (it lands in
-`~/.config/updateapps/apps.d/gnoling/`):
+updateapps uses this repository by default, opt-in. `updateapps list` shows what's here;
+name what you want in `~/.config/updateapps/config.yaml`:
 
 ```yaml
-repositories:
-  - name: gnoling
-    url: https://github.com/gnoling/updateapps-definitions
-    default: disabled        # browse first; turn apps on with the enabled: list
 enabled: [dolphin, rpcs3]
 ```
 
@@ -26,7 +22,12 @@ package: updateapps downloads the branch as the archive the host generates on re
 
 - Check it first: `updateapps --defs apps.d validate`, then `updateapps --defs apps.d check <id>`.
 - Prefer a declarative `source:`; reach for Lua only when upstream's publishing can't be
-  described otherwise (see updateapps' `docs/LUA.md`).
+  described otherwise (see updateapps' `docs/DEFINITIONS.md` and `docs/LUA.md`).
 - `name:` is the app's proper name, `description:` one sentence-case line.
 - Use `${APPDIR}` / `${APPIMAGEDIR}`, never a literal home directory.
 - Put anything a maintainer should know (why a pattern is odd, what upstream changed) in `notes:`.
+
+## License
+
+[CC0](LICENSE): public domain. Copy definitions into your own repository freely; no
+attribution needed.
