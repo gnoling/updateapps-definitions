@@ -1,0 +1,12 @@
+name: 'Lost Odyssey Recomp'
+description: Experimental native PC port of Lost Odyssey using static recompilation.
+category: ports
+source:
+  type: github-release
+  repo: freefrank/LostOdysseyRecomp
+  channel: stable
+  version_from: tag
+asset: '*x64*.AppImage'
+install:
+  type: file
+  dest: ${APPDIR}/lostodysseyrecomp/LostOdysseyRecomp.AppImage
