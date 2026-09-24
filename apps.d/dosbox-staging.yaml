@@ -1,0 +1,12 @@
+name: DOSBox Staging
+description: Modern continuation of DOSBox with advanced features
+category: tools
+source:
+  type: github-release
+  repo: dosbox-staging/dosbox-staging
+asset: '*linux-x86_64*.tar.xz'
+install:
+  type: extract
+  dest: ${APPDIR}/dosbox-staging
+  strip: 1
+  executables: [dosbox]

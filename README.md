@@ -17,7 +17,7 @@ writes outside your apps directories.
 
 ## Definitions
 
-128 definitions. *(disabled)* marks ones that stay off even for a repository that enables
+130 definitions. *(disabled)* marks ones that stay off even for a repository that enables
 everything by default (upstream archived or moved); their `notes:` say why.
 
 ### Emulators
@@ -107,6 +107,7 @@ everything by default (upstream archived or moved); their `notes:` say why.
 | [Kameo: Elements of Power (RePowered)](apps.d/kameo.yaml) | PC port of the Xbox 360 game Kameo: Elements of Power (vanilla build - the TU build renders black) | [birabittoh/KameoRePowered](https://github.com/birabittoh/KameoRePowered) |
 | [Kirby's Return to Dream Land: Recompiled](apps.d/kirbywiirecomp.yaml) | PC port of Kirby's Return to Dream Land via Wii recompilation (ModernGekko) | [ExpansionPak/ModernGekko](https://github.com/ExpansionPak/ModernGekko) |
 | [Lighthouse (Banjo-Kazooie)](apps.d/lighthouse.yaml) | Harbour Masters native PC port of Banjo-Kazooie | [HarbourMasters/Lighthouse](https://github.com/HarbourMasters/Lighthouse) |
+| [Lost Odyssey Recomp](apps.d/lostodysseyrecomp.yaml) | Experimental native PC port of Lost Odyssey using static recompilation | [freefrank/LostOdysseyRecomp](https://github.com/freefrank/LostOdysseyRecomp) |
 | [Mega Man 64: Recompiled](apps.d/megaman64recompiled.yaml) | PC port of Mega Man 64 via N64 static recompilation | [MegaMan64Recomp/MegaMan64Recompiled](https://github.com/MegaMan64Recomp/MegaMan64Recompiled) |
 | [Mystical Ninja Starring Goemon: Recompiled](apps.d/goemon64recompiled.yaml) | PC port of Mystical Ninja Starring Goemon via N64 static recompilation | [klorfmorf/Goemon64Recomp](https://github.com/klorfmorf/Goemon64Recomp) |
 | [OpenGOAL Launcher](apps.d/open-goal-launcher.yaml) | Launcher for OpenGOAL - the Jak and Daxter PC port project | [open-goal/launcher](https://github.com/open-goal/launcher) |
@@ -152,6 +153,7 @@ everything by default (upstream archived or moved); their `notes:` say why.
 | [Czkawka](apps.d/czkawka-gui.yaml) | Fast duplicate file, empty folder, and similar image finder | [qarmin/czkawka](https://github.com/qarmin/czkawka) |
 | [digiKam](apps.d/digikam.yaml) | Professional photo management and editing application | [files.kde.org](https://files.kde.org/digikam/) |
 | [DOSBox Pure Unleashed](apps.d/dosbox-pure.yaml) | Standalone DOSBox Pure build for running DOS games and applications | [schellingb/dosbox-pure-unleashed](https://github.com/schellingb/dosbox-pure-unleashed) |
+| [DOSBox Staging](apps.d/dosbox-staging.yaml) | Modern continuation of DOSBox with advanced features | [dosbox-staging/dosbox-staging](https://github.com/dosbox-staging/dosbox-staging) |
 | [Heroic Games Launcher](apps.d/heroicgamelauncher.yaml) | An alternative GOG and Epic Games Launcher for Linux, Windows and macOS | [Heroic-Games-Launcher/HeroicGamesLauncher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher) |
 | [Inkscape](apps.d/inkscape.yaml) | Professional vector graphics editor (SVG) | [inkscape.org](https://inkscape.org/release/all/gnulinux/appimage/) |
 | [Joplin](apps.d/joplin.yaml) | Open-source note-taking and to-do app with sync | [laurent22/joplin](https://github.com/laurent22/joplin) |
@@ -174,6 +176,7 @@ package: updateapps downloads the branch as the archive the host generates on re
 - `name:` is the app's proper name, `description:` one sentence-case line.
 - Use `${APPDIR}` / `${APPIMAGEDIR}`, never a literal home directory.
 - Put anything a maintainer should know (why a pattern is odd, what upstream changed) in `notes:`.
+- Run `tools/readme-table.py` to refresh the table above (needs Python with PyYAML).
 
 ## License
 

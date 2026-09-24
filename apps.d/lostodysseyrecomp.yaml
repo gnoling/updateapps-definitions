@@ -1,5 +1,5 @@
 name: 'Lost Odyssey Recomp'
-description: Experimental native PC port of Lost Odyssey using static recompilation.
+description: Experimental native PC port of Lost Odyssey using static recompilation
 category: ports
 source:
   type: github-release
