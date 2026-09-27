@@ -1,6 +1,7 @@
 name: BigInstinct
 description: Killer Instinct arcade emulator by Rich Whitehouse
 category: emulators
+homepage: https://www.richwhitehouse.com/ki/
 source:
   type: html
   url: https://www.richwhitehouse.com/ki/index.php?content=download

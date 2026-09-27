@@ -1,6 +1,7 @@
 name: Flycast
 description: Sega Dreamcast/Naomi/Atomiswave emulator
 category: emulators
+homepage: https://github.com/flyinghead/flycast
 notes: |
   The builds page is JavaScript rendering a public S3 bucket listing; flycast.lua reads the
   listing directly.

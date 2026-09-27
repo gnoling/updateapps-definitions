@@ -1,6 +1,7 @@
 name: 'Duke Nukem: Zero Hour Recompiled'
 description: 'PC port of Duke Nukem: Zero Hour via N64 static recompilation'
 category: ports
+homepage: https://dnzh-overclocked.com/
 notes: |
   Ships from the project site, version in the filename. *.json is excluded: user settings.
 source:

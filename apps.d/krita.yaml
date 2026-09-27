@@ -1,6 +1,7 @@
 name: Krita
 description: Professional free and open source digital painting program
 category: tools
+homepage: https://krita.org/
 source:
   type: html
   url: https://krita.org/en/download/

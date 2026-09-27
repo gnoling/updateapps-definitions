@@ -1,6 +1,7 @@
 name: Avidemux
 description: Video editor (nightly build)
 category: tools
+homepage: https://www.avidemux.org/
 source:
   type: html
   url: https://www.avidemux.org/nightly/appImage/

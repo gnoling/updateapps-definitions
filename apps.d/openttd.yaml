@@ -1,6 +1,7 @@
 name: OpenTTD
 description: Open-source reimplementation of Transport Tycoon Deluxe
 category: ports
+homepage: https://www.openttd.org/
 source:
   type: yaml
   url: https://cdn.openttd.org/openttd-releases/latest.yaml

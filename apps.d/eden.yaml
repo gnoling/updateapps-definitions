@@ -1,6 +1,7 @@
 name: Eden
 description: Nintendo Switch emulator (continuation of the Yuzu project)
 category: emulators
+homepage: https://eden-emu.dev/
 notes: |
   Nightlies (eden-ci/nightly), not eden-emu/eden stable. The Forgejo releases have no
   assets: builds are links in the release notes, hosted on nightly.eden-emu.dev. For another

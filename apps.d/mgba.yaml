@@ -1,6 +1,7 @@
 name: mGBA
 description: Game Boy Advance Emulator
 category: emulators
+homepage: https://mgba.io/
 notes: |
   One fixed URL whose content is replaced by each nightly build; the ETag is the version.
 source:

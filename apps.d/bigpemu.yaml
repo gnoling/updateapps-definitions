@@ -1,6 +1,7 @@
 name: BigPEmu
 description: Atari Jaguar and Jaguar CD emulator
 category: emulators
+homepage: https://www.richwhitehouse.com/jaguar/
 source:
   type: html
   url: https://www.richwhitehouse.com/jaguar/index.php?content=download

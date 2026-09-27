@@ -1,6 +1,7 @@
 name: Inkscape
 description: Professional vector graphics editor (SVG)
 category: tools
+homepage: https://inkscape.org/
 source:
   type: html
   url: https://inkscape.org/release/all/gnulinux/appimage/

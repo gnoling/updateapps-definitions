@@ -1,6 +1,7 @@
 name: digiKam
 description: Professional photo management and editing application
 category: tools
+homepage: https://www.digikam.org/
 source:
   type: html
   url: https://files.kde.org/digikam/

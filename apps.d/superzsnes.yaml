@@ -1,6 +1,7 @@
 name: SUPERZSNES
 description: Modern Unity-based revival of the ZSNES Super Nintendo emulator
 category: emulators
+homepage: https://www.zsnes.com/
 source:
   type: html
   url: https://www.zsnes.com/

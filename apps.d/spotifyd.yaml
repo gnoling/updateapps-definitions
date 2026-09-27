@@ -3,6 +3,7 @@ description: Spotify Connect daemon
 category: tools
 notes: |
   'full' is the D-Bus/MPRIS variant.
+desktop: false
 source:
   type: github-release
   repo: Spotifyd/spotifyd
