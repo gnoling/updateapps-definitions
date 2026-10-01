@@ -1,0 +1,20 @@
+name: XnView MP
+description: Image viewer, browser and converter
+category: tools
+homepage: https://www.xnview.com/en/xnview-mp/
+notes: |
+  The download page links an unversioned AppImage, so this reads the versions folder
+  instead, sorted by date (?C=M;O=A) because the version numbers don't sort as text
+  (1.9.9 after 1.12.1). The .deb and .tgz exist too; the AppImage keeps it out of the
+  system packages.
+source:
+  type: html
+  url: 'https://download.xnview.com/versions/XnView_MP/?C=M;O=A'
+  select: 'a[href$="x86_64.AppImage"]'
+  attr: href
+  include_regex: 'glibc2\.34'
+  pick: last
+  version: 'regex:XnView_MP-([0-9.]+)\.glibc'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/XnViewMP.AppImage

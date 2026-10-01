@@ -17,7 +17,7 @@ writes outside your apps directories.
 
 ## Definitions
 
-130 definitions. *(disabled)* marks ones that stay off even for a repository that enables
+131 definitions. *(disabled)* marks ones that stay off even for a repository that enables
 everything by default (upstream archived or moved); their `notes:` say why.
 
 ### Emulators
@@ -164,6 +164,7 @@ everything by default (upstream archived or moved); their `notes:` say why.
 | [ProtonUp-Qt](apps.d/protonup-qt.yaml) | Install and manage Proton-GE and other Wine/Proton compatibility layers | [DavidoTek/ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt) |
 | [spotifyd](apps.d/spotifyd.yaml) | Spotify Connect daemon | [Spotifyd/spotifyd](https://github.com/Spotifyd/spotifyd) |
 | [WinBoat](apps.d/winboat.yaml) | Windows application compatibility and launcher tool | [TibixDev/winboat](https://github.com/TibixDev/winboat) |
+| [XnView MP](apps.d/xnviewmp.yaml) | Image viewer, browser and converter | [download.xnview.com](https://download.xnview.com/versions/XnView_MP/?C=M;O=A) |
 
 ## Contribute
 
