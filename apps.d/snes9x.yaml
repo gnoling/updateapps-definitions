@@ -1,17 +1,24 @@
 name: Snes9x
 description: Super Nintendo Entertainment System Emulator
 category: emulators
-enabled: false
 notes: |
-  Linux nightlies came only from Cirrus CI, which shut down on 1 June 2026; upstream builds
-  Linux binaries nowhere now. Disabled: the last release (1.63, 2024) is far older than any
-  nightly already installed. A candidate for source builds.
+  Built from source: Linux nightlies came only from Cirrus CI, which shut down on 1 June 2026,
+  and the last release (1.63, 2024) is older than any nightly. The GTK build (cmake, ninja,
+  gtkmm 3, SDL2, portaudio, minizip, glslang) lands in the same layout as the nightly tarballs.
+  The first clone is about 600M with submodules; a full build takes a few minutes.
 source:
-  type: github-release
-  repo: snes9xgit/snes9x
-  channel: stable
-  version_from: tag
-asset: 'Snes9x-*-x86_64.AppImage'
+  type: git
+  url: https://github.com/snes9xgit/snes9x
+  submodules: true
 install:
-  type: file
-  dest: ${APPIMAGEDIR}/Snes9x.AppImage
+  type: build
+  dest: ${APPDIR}/snes9x
+  steps:
+    - cmake -G Ninja -B build -S gtk -DCMAKE_BUILD_TYPE=Release
+    - ninja -C build
+  artifacts: [build/snes9x-gtk, data, docs, gtk/AUTHORS, LICENSE, README.md]
+  needs:
+    commands: [cmake, ninja, c++]
+    pkg-config: [gtkmm-3.0, sdl2, portaudio-2.0, minizip]
+    apt: [cmake, ninja-build, g++, gettext, libgtkmm-3.0-dev, libsdl2-dev,
+          portaudio19-dev, libminizip-dev, glslang-dev]

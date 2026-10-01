@@ -1,0 +1,26 @@
+name: Snes9x (AppImage)
+description: Super Nintendo Entertainment System Emulator
+category: emulators
+enabled: false
+notes: |
+  The same source build as snes9x, packaged with upstream's gtk/scripts/makeappimage.sh,
+  which downloads appimagetool and linuxdeploy (continuous builds) into the build directory
+  on first use. Enable this or snes9x, not both; each keeps its own checkout.
+source:
+  type: git
+  url: https://github.com/snes9xgit/snes9x
+  submodules: true
+install:
+  type: build
+  dest: ${APPIMAGEDIR}
+  steps:
+    - cmake -G Ninja -B build -S gtk -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+    - ninja -C build
+    - cd build && rm -rf AppDir Snes9x*.AppImage && ../gtk/scripts/makeappimage.sh
+  artifacts:
+    - {from: 'build/Snes9x*.AppImage', to: Snes9x.AppImage}
+  needs:
+    commands: [cmake, ninja, c++, wget, patchelf]
+    pkg-config: [gtkmm-3.0, sdl2, portaudio-2.0, minizip]
+    apt: [cmake, ninja-build, g++, gettext, wget, patchelf, libgtkmm-3.0-dev, libsdl2-dev,
+          portaudio19-dev, libminizip-dev, glslang-dev]

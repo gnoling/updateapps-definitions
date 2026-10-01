@@ -17,7 +17,7 @@ writes outside your apps directories.
 
 ## Definitions
 
-131 definitions. *(disabled)* marks ones that stay off even for a repository that enables
+132 definitions. *(disabled)* marks ones that stay off even for a repository that enables
 everything by default (upstream archived or moved); their `notes:` say why.
 
 ### Emulators
@@ -72,7 +72,8 @@ everything by default (upstream archived or moved); their `notes:` say why.
 | [shadPS4](apps.d/shadps4.yaml) | Sony PlayStation 4 emulator | [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4) |
 | [SheepShaver](apps.d/sheepshaver.yaml) | PowerPC Macintosh emulator for running classic Mac OS | [Korkman/macemu-appimage-builder](https://github.com/Korkman/macemu-appimage-builder) |
 | [SkyEmu](apps.d/skyemu.yaml) | Game Boy, Game Boy Advance, and Nintendo DS emulator | [skylersaleh/SkyEmu](https://github.com/skylersaleh/SkyEmu) |
-| [Snes9x](apps.d/snes9x.yaml) *(disabled)* | Super Nintendo Entertainment System Emulator | [snes9xgit/snes9x](https://github.com/snes9xgit/snes9x) |
+| [Snes9x (AppImage)](apps.d/snes9x-appimage.yaml) *(disabled)* | Super Nintendo Entertainment System Emulator | [snes9xgit/snes9x](https://github.com/snes9xgit/snes9x) |
+| [Snes9x](apps.d/snes9x.yaml) | Super Nintendo Entertainment System Emulator | [snes9xgit/snes9x](https://github.com/snes9xgit/snes9x) |
 | [Supermodel](apps.d/supermodel.yaml) | Sega Model 3 arcade system emulator | [trzy/Supermodel](https://github.com/trzy/Supermodel) |
 | [SUPERZSNES](apps.d/superzsnes.yaml) | Modern Unity-based revival of the ZSNES Super Nintendo emulator | [www.zsnes.com](https://www.zsnes.com/) |
 | [Tanuki3DS](apps.d/tanuki3ds.yaml) | Nintendo 3DS Emulator | [burhanr13/Tanuki3DS](https://github.com/burhanr13/Tanuki3DS) |

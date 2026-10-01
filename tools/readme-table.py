@@ -20,6 +20,9 @@ def upstream(s):
             host = "https://" + host
         proj = s.get("project") or repo or ""
         return f"[{proj}]({host}/{proj})"
+    if t == "git":
+        url = s.get("url", "").rstrip("/")
+        return f"[{urlsplit(url).path.strip('/').removesuffix('.git')}]({url})"
     if t == "flatpak":
         return f"flatpak `{s.get('ref') or s.get('app') or ''}`"
     if t == "script":
