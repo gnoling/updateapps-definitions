@@ -1,0 +1,13 @@
+name: 'Donkey Kong 64: Recompiled'
+description: PC port of Donkey Kong 64 via N64 static recompilation
+category: ports
+homepage: https://dk64recomp.com
+source:
+  type: github-release
+  repo: Rainchus/Donkey-Kong-64-Recompiled
+asset: '*Linux-X64*.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/DK64Recompiled
+  nested: true
+  executables: [DK64Recompiled]

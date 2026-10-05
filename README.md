@@ -17,7 +17,7 @@ writes outside your apps directories.
 
 ## Definitions
 
-132 definitions. *(disabled)* marks ones that stay off even for a repository that enables
+133 definitions. *(disabled)* marks ones that stay off even for a repository that enables
 everything by default (upstream archived or moved); their `notes:` say why.
 
 ### Emulators
@@ -96,6 +96,7 @@ everything by default (upstream archived or moved); their `notes:` say why.
 | [Dethrace](apps.d/dethrace.yaml) | Reverse-engineered Carmageddon (1997) engine — needs the original DATA folder here | [dethrace-labs/dethrace](https://github.com/dethrace-labs/dethrace) |
 | [DevilutionX (Diablo)](apps.d/devilutionx.yaml) | Open-source reimplementation of Diablo 1 and Hellfire | [diasurgical/devilutionX](https://github.com/diasurgical/devilutionX) |
 | [Dinosaur Planet: Recompiled](apps.d/dinosaurplanetrecompiled.yaml) | PC port of the unreleased N64 game Dinosaur Planet | [DinosaurPlanetRecomp/dino-recomp](https://github.com/DinosaurPlanetRecomp/dino-recomp) |
+| [Donkey Kong 64: Recompiled](apps.d/dk64recompiled.yaml) | PC port of Donkey Kong 64 via N64 static recompilation | [Rainchus/Donkey-Kong-64-Recompiled](https://github.com/Rainchus/Donkey-Kong-64-Recompiled) |
 | [DREAMM](apps.d/dreamm.yaml) | DOS Retro-Engine Emulator for Aaron Giles' Multi-Media games (LucasArts adventure runtime) | [dreamm.aarongiles.com](https://dreamm.aarongiles.com/) |
 | [DSDA-Doom](apps.d/dsda-doom.yaml) | Doom source port focused on speedrunning, demos, and accurate replays | [kraflab/dsda-doom](https://github.com/kraflab/dsda-doom) |
 | [Duke Nukem: Zero Hour Recompiled](apps.d/dnzh.yaml) | PC port of Duke Nukem: Zero Hour via N64 static recompilation | [dnzh-overclocked.com](https://dnzh-overclocked.com/) |
