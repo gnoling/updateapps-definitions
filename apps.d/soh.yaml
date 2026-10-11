@@ -6,7 +6,7 @@ source:
   repo: HarbourMasters/Shipwright
   workflow: generate-builds
   branch: develop
-  artifact: soh-linux
+  artifact: soh-linux-x86_64
 install:
   type: extract
   dest: ${APPDIR}/shipwright

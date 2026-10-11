@@ -154,7 +154,7 @@ everything by default (upstream archived or moved); their `notes:` say why.
 | [ComicTagger](apps.d/comictagger.yaml) | Comic book metadata tagging and management tool | [comictagger/comictagger](https://github.com/comictagger/comictagger) |
 | [Czkawka](apps.d/czkawka-gui.yaml) | Fast duplicate file, empty folder, and similar image finder | [qarmin/czkawka](https://github.com/qarmin/czkawka) |
 | [digiKam](apps.d/digikam.yaml) | Professional photo management and editing application | [files.kde.org](https://files.kde.org/digikam/) |
-| [DOSBox Pure Unleashed](apps.d/dosbox-pure.yaml) | Standalone DOSBox Pure build for running DOS games and applications | [schellingb/dosbox-pure-unleashed](https://github.com/schellingb/dosbox-pure-unleashed) |
+| [DOSBox Pure Unleashed](apps.d/dosbox-pure.yaml) | Standalone DOSBox Pure build for running DOS games and applications | [schelling/dosbox-pure-unleashed](https://codeberg.org/schelling/dosbox-pure-unleashed) |
 | [DOSBox Staging](apps.d/dosbox-staging.yaml) | Modern continuation of DOSBox with advanced features | [dosbox-staging/dosbox-staging](https://github.com/dosbox-staging/dosbox-staging) |
 | [Heroic Games Launcher](apps.d/heroicgamelauncher.yaml) | An alternative GOG and Epic Games Launcher for Linux, Windows and macOS | [Heroic-Games-Launcher/HeroicGamesLauncher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher) |
 | [Inkscape](apps.d/inkscape.yaml) | Professional vector graphics editor (SVG) | [inkscape.org](https://inkscape.org/release/all/gnulinux/appimage/) |

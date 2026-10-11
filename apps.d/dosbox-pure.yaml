@@ -1,10 +1,14 @@
 name: DOSBox Pure Unleashed
 description: Standalone DOSBox Pure build for running DOS games and applications
 category: tools
+notes: |
+  Releases moved from GitHub (schellingb/dosbox-pure-unleashed, whose releases now carry no
+  assets) to Codeberg in 2026.
 source:
-  type: github-release
-  repo: schellingb/dosbox-pure-unleashed
-asset: '*linux-x64*'
+  type: forgejo
+  host: codeberg.org
+  repo: schelling/dosbox-pure-unleashed
+asset: {regex: 'linux-x64.*\.zip$'}
 install:
   type: extract
   dest: ${APPDIR}/dosboxpure
