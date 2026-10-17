@@ -1,6 +1,9 @@
 name: 'Lost Odyssey Recomp'
 description: Experimental native PC port of Lost Odyssey using static recompilation
 category: ports
+desktop:
+  generic_name: Xbox 360 Game Recompilation
+  keywords: [lost, odyssey, recomp, recompilation, xbox, '360', mistwalker, jrpg]
 source:
   type: github-release
   repo: freefrank/LostOdysseyRecomp

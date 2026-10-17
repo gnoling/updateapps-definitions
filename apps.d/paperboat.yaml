@@ -1,6 +1,8 @@
 name: PaperBoat
 description: Native PC port of Paper Mario 64
 category: ports
+desktop:
+  keywords: [paper, mario, '64', paperboat, harbourmasters, port, n64]
 source:
   type: github-release
   repo: HarbourMasters/PaperBoat

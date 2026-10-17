@@ -1,6 +1,9 @@
 name: 'Banjo-Kazooie: Recompiled'
 description: PC port of Banjo-Kazooie via N64 static recompilation
 category: ports
+desktop:
+  generic_name: Banjo-Kazooie Port
+  keywords: [banjo, kazooie, recomp, recompiled, n64, port]
 source:
   type: github-release
   repo: BanjoRecomp/BanjoRecomp

@@ -1,6 +1,8 @@
 name: Fujisan
 description: Atari 8-bit computer emulator with built-in FujiNet support
 category: emulators
+desktop:
+  icon: 'images/FujisanLogoIcon.png'
 source:
   type: github-release
   repo: pedgarcia/fujisan

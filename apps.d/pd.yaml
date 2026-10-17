@@ -4,6 +4,9 @@ category: ports
 notes: |
   Pinned to upstream's branch (port). Most successful runs in this repo are pull-request
   builds from forks, which are never used.
+desktop:
+  generic_name: Perfect Dark PC Port
+  keywords: [perfectdark, n64, rare, port, decomp, fps]
 source:
   type: github-actions
   repo: perfect-dark-pc-port/perfect_dark

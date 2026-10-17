@@ -1,6 +1,8 @@
 name: Heroes of Might and Magic II (fheroes2)
 description: Open-source reimplementation of Heroes of Might and Magic II
 category: ports
+desktop:
+  icon: fheroes2.png
 source:
   type: github-release
   repo: ihhub/fheroes2

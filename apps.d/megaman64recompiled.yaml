@@ -1,6 +1,9 @@
 name: 'Mega Man 64: Recompiled'
 description: PC port of Mega Man 64 via N64 static recompilation
 category: ports
+desktop:
+  generic_name: Mega Man 64 Port
+  keywords: [megaman, mega, man, '64', legends, volnutt, recomp, recompiled, n64, port]
 source:
   type: github-release
   repo: MegaMan64Recomp/MegaMan64Recompiled

@@ -1,6 +1,9 @@
 name: 'Kirby''s Return to Dream Land: Recompiled'
 description: PC port of Kirby's Return to Dream Land via Wii recompilation (ModernGekko)
 category: ports
+desktop:
+  generic_name: Kirby Wii Port
+  keywords: [kirby, wii, recomp, recompiled, moderngekko, port]
 source:
   type: github-release
   repo: ExpansionPak/ModernGekko

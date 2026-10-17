@@ -5,6 +5,8 @@ homepage: https://dreamm.aarongiles.com/
 notes: |
   Releases are on the front page; /beta/ was retired when 4.0 shipped. The links use
   backslashes (href='releases\dreamm-4.0-linux-x64.tgz'), resolved as a browser would.
+desktop:
+  icon: dreamm.png
 source:
   type: html
   url: https://dreamm.aarongiles.com/

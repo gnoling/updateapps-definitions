@@ -1,6 +1,9 @@
 name: 'Harvest Moon 64: Recompiled'
 description: PC port of Harvest Moon 64 via N64 static recompilation
 category: ports
+desktop:
+  generic_name: Harvest Moon 64 Port
+  keywords: [harvestmoon, n64, recomp, port, farming]
 source:
   type: github-release
   repo: HarvestMoon64Recomp/HarvestMoon64Recomp

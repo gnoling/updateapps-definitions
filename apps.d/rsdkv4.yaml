@@ -1,6 +1,9 @@
 name: Sonic 1 & 2 (RSDKv4)
 description: Sonic the Hedgehog 1 & 2 (2013) decompilation — needs Data.rsdk from the mobile release
 category: ports
+desktop:
+  generic_name: Retro Engine v4
+  keywords: [sonic, hedgehog, '1', rsdk, retro, engine, decomp, sega]
 source:
   type: github-release
   repo: RSDKModding/RSDKv4-Decompilation

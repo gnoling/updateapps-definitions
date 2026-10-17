@@ -1,6 +1,8 @@
 name: Sonic 3 A.I.R.
 description: 'Sonic 3: Angel Island Revisited - enhanced PC port of Sonic 3 & Knuckles'
 category: ports
+desktop:
+  icon: 'data/icon.png'
 source:
   type: github-release
   repo: Eukaryot/sonic3air

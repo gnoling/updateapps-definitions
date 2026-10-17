@@ -4,6 +4,8 @@ category: emulators
 notes: |
   citron-neo/CI is the live source (Zephyron-Dev/Citron-CI and git.citron-emu.org are dead).
   '_v3' is the PGO build for x86-64-v3 CPUs.
+desktop:
+  keywords: [switch, nintendo, emulator]
 source:
   type: github-release
   repo: citron-neo/CI

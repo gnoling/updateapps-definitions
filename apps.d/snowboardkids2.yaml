@@ -1,6 +1,9 @@
 name: 'Snowboard Kids 2: Recompiled'
 description: PC port of Snowboard Kids 2 via N64 static recompilation
 category: ports
+desktop:
+  generic_name: Snowboard Kids 2 Port
+  keywords: [snowboardkids, n64, recomp, port]
 source:
   type: github-release
   repo: cdlewis/snowboardkids2-recomp

@@ -1,6 +1,9 @@
 name: PsyDoom
 description: Reverse-engineered PC port of PlayStation Doom and Final Doom
 category: ports
+desktop:
+  generic_name: PlayStation Doom Port
+  keywords: [doom, psx, playstation, sourceport]
 source:
   type: github-release
   repo: BodbDearg/PsyDoom

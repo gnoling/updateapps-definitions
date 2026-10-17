@@ -3,6 +3,9 @@ description: Sonic CD (2011) decompilation — needs Data.rsdk from the mobile r
 category: ports
 notes: |
   Retro Engine: tarball inside the zip; wants the matching Data.rsdk beside the binary.
+desktop:
+  generic_name: Retro Engine v3
+  keywords: [sonic, cd, rsdk, retro, engine, decomp, sega]
 source:
   type: github-release
   repo: RSDKModding/RSDKv3-Decompilation

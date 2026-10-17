@@ -1,6 +1,9 @@
 name: 're:Blue'
 description: Native PC rebuild of Blue Dragon (Xbox 360) via static recompilation
 category: ports
+desktop:
+  generic_name: Blue Dragon Recompilation
+  keywords: [blue, dragon, reblue, recomp, recompilation, xbox, '360', mistwalker, jrpg]
 source:
   type: github-release
   repo: zolaware/reblue

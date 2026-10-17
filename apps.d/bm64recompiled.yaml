@@ -1,6 +1,9 @@
 name: 'Bomberman 64: Recompiled'
 description: PC port of Bomberman 64 via N64 static recompilation
 category: ports
+desktop:
+  generic_name: Bomberman 64 Port
+  keywords: [bomberman, n64, recomp, port]
 source:
   type: github-release
   repo: RevoSucks/BM64Recomp

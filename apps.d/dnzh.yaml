@@ -4,6 +4,8 @@ category: ports
 homepage: https://dnzh-overclocked.com/
 notes: |
   Ships from the project site, version in the filename. *.json is excluded: user settings.
+desktop:
+  keywords: [duke, nukem, recomp, n64, port]
 source:
   type: html
   url: https://dnzh-overclocked.com/

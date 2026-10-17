@@ -3,6 +3,9 @@ description: RuneScape Classic client in C — self-contained, connects to commu
 category: ports
 notes: |
   Self-contained: bundles its own cache/, connects to community RSC servers. No game data needed.
+desktop:
+  generic_name: RSC Client
+  keywords: [runescape, classic, rsc, mudclient, mmo, jagex]
 source:
   type: github-release
   repo: 2003scape/rsc-c

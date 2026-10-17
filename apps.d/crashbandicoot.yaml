@@ -3,6 +3,9 @@ description: PC port of Crash Bandicoot (NTSC-U, SCUS-94900) via RecompOne PS1 r
 category: ports
 notes: |
   The Linux asset is renamed most releases, so it's found by elimination: not .exe, not .apk.
+desktop:
+  generic_name: Crash Bandicoot PS1 Port
+  keywords: [crash, bandicoot, ps1, psx, recomp, recompiled, recompone, naughtydog, port]
 source:
   type: github-release
   repo: Matteo842/CrashBandicoot-Launcher

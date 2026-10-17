@@ -1,6 +1,9 @@
 name: 'Super Mario 64: CoopDX'
 description: Online co-op multiplayer PC port of Super Mario 64
 category: ports
+desktop:
+  generic_name: Super Mario 64 Co-op
+  keywords: [mario, sm64, coop, multiplayer, n64, port]
 source:
   type: github-release
   repo: coop-deluxe/sm64coopdx

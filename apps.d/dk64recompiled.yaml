@@ -2,6 +2,9 @@ name: 'Donkey Kong 64: Recompiled'
 description: PC port of Donkey Kong 64 via N64 static recompilation
 category: ports
 homepage: https://dk64recomp.com
+desktop:
+  generic_name: Donkey Kong 64 Port
+  keywords: [donkey, kong, dk64, rekongpiled, recomp, recompiled, n64, port]
 source:
   type: github-release
   repo: Rainchus/Donkey-Kong-64-Recompiled

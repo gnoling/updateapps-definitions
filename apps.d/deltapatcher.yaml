@@ -1,6 +1,8 @@
 name: Delta Patcher
 description: Create and apply xdelta binary patches
 category: emulators
+desktop:
+  keywords: [xdelta, patch, rom, utility]
 source:
   type: github-release
   repo: marco-calautti/DeltaPatcher

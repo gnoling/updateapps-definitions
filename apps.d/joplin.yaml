@@ -1,6 +1,8 @@
 name: Joplin
 description: Open-source note-taking and to-do app with sync
 category: tools
+desktop:
+  categories: Office;
 source:
   type: github-release
   repo: laurent22/joplin

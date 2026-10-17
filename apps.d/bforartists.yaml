@@ -1,6 +1,8 @@
 name: Bforartists
 description: A fork of Blender focused on improved usability and user interface
 category: tools
+desktop:
+  categories: Graphics;3DGraphics;
 source:
   type: github-release
   repo: Bforartists/Bforartists

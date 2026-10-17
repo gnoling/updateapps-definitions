@@ -7,6 +7,11 @@ notes: |
   instead, sorted by date (?C=M;O=A) because the version numbers don't sort as text
   (1.9.9 after 1.12.1). The .deb and .tgz exist too; the AppImage keeps it out of the
   system packages.
+desktop:
+  args: '%F'
+  categories: Graphics;Viewer;Photography;
+  generic_name: Image Viewer
+  keywords: [image, photo, picture, viewer, browser, converter, xnview]
 source:
   type: html
   url: 'https://download.xnview.com/versions/XnView_MP/?C=M;O=A'

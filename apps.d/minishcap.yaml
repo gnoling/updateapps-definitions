@@ -1,6 +1,9 @@
 name: 'The Legend of Zelda: The Minish Cap'
 description: 'PC port of The Legend of Zelda: The Minish Cap'
 category: ports
+desktop:
+  generic_name: Minish Cap Port
+  keywords: [zelda, minishcap, gba, port, tmc]
 source:
   type: github-release
   repo: 999sian/tmc

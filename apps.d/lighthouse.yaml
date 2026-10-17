@@ -1,6 +1,9 @@
 name: Lighthouse (Banjo-Kazooie)
 description: Harbour Masters native PC port of Banjo-Kazooie
 category: ports
+desktop:
+  generic_name: Banjo-Kazooie Port
+  keywords: [lighthouse, banjo, kazooie, harbourmasters, n64, port]
 source:
   type: github-release
   repo: HarbourMasters/Lighthouse

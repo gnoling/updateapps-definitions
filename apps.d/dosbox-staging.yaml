@@ -1,6 +1,9 @@
 name: DOSBox Staging
 description: Modern continuation of DOSBox with advanced features
 category: tools
+desktop:
+  generic_name: DOS emulator
+  keywords: [dos, dosbox, staging, gaming, game, games, emulator]
 source:
   type: github-release
   repo: dosbox-staging/dosbox-staging

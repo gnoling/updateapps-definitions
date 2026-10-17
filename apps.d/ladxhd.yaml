@@ -5,6 +5,7 @@ notes: |
   Upstream ships patchers that upgrade an install in place, and --headless is broken, so
   this only stages the Lite patcher. The asset name ("Patcher-Lite" / "Patcher.Lite") and
   the binary's name inside the 7z both drift, hence the loose patterns.
+desktop: false
 source:
   type: gitlab
   project: bighead.0/ladxhd_updated

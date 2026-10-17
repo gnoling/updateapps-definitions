@@ -1,6 +1,8 @@
 name: REDRIVER2
 description: PC port of Driver 2 reverse-engineered from the PlayStation original
 category: ports
+desktop:
+  keywords: [driver2, psx, port]
 source:
   type: github-release
   repo: OpenDriver2/REDRIVER2

@@ -8,7 +8,7 @@ source:
   repo: 86Box/86Box
   workflow: CMake (Linux)
   branch: master
-  artifact_regex: '^86Box-Qt6-NDR-Dev-UbuntuJammy-x86_64-'
+  artifact_regex: '^86Box-Qt6-Dev-UbuntuJammy-x86_64-'
 install:
   type: extract-one
   member: bin/86Box

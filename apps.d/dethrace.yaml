@@ -4,6 +4,9 @@ category: ports
 notes: |
   Needs SDL3 installed: it dlopens libSDL3.so.0, so ldd looks clean even when it's missing.
   Needs Carmageddon's DATA/ folder in the install directory.
+desktop:
+  generic_name: Carmageddon Port
+  keywords: [carmageddon, dethrace, racing, decomp, port]
 source:
   type: github-release
   repo: dethrace-labs/dethrace

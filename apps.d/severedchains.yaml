@@ -4,6 +4,9 @@ category: ports
 notes: |
   Rolling 'devbuild' tag with frozen release metadata, so the version is the asset's
   updated_at. isos/, saves/ and mods/ in the install dir survive: extraction never deletes.
+desktop:
+  generic_name: The Legend of Dragoon Port
+  keywords: [legend, dragoon, severed, chains, psx, playstation, rpg, port]
 source:
   type: github-release
   repo: Legend-of-Dragoon-Modding/Severed-Chains

@@ -1,6 +1,9 @@
 name: 'Dinosaur Planet: Recompiled'
 description: PC port of the unreleased N64 game Dinosaur Planet
 category: ports
+desktop:
+  generic_name: Dinosaur Planet Port
+  keywords: [dinosaurplanet, n64, recomp, rare, port]
 source:
   type: github-release
   repo: DinosaurPlanetRecomp/dino-recomp
