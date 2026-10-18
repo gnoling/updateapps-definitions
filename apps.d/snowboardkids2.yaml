@@ -7,7 +7,7 @@ desktop:
 source:
   type: github-release
   repo: cdlewis/snowboardkids2-recomp
-asset: '*Linux-X64-Release.tar.gz'
+asset: '*Linux-X64*.tar.gz'
 install:
   type: extract
   dest: ${APPDIR}/snowboardkids2
