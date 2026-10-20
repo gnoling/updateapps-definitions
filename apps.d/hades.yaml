@@ -1,13 +1,14 @@
 name: Hades
 description: Highly accurate Game Boy Advance emulator
 category: emulators
+notes: |
+  The artifact is the bare AppImage (uploaded unzipped), named with the version.
 source:
   type: github-actions
   repo: hades-emu/Hades
   workflow: Build
   branch: master
-  artifact: hades-linux-appimage
+  artifact_regex: '^hades-.*-linux-x64\.appimage$'
 install:
-  type: extract-one
-  member: hades.AppImage
+  type: file
   dest: ${APPIMAGEDIR}/hades.AppImage
