@@ -4,7 +4,7 @@ category: emulators
 source:
   type: github-release
   repo: blueminder/flycast-dojo
-asset: 'linux*'
+asset: '*linux*.zip'
 install:
   type: extract-one
   dest: ${APPIMAGEDIR}/flycast-dojo-x86_64.AppImage

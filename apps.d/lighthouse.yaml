@@ -7,8 +7,7 @@ desktop:
 source:
   type: github-release
   repo: HarbourMasters/Lighthouse
-asset: '*Linux.zip'
+asset: '*.appimage'
 install:
-  type: extract
-  dest: ${APPDIR}/lighthouse
-  executables: [lighthouse.appimage]
+  type: file
+  dest: ${APPDIR}/lighthouse/lighthouse.appimage
