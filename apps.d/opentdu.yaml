@@ -8,7 +8,7 @@ notes: |
 source:
   type: github-release
   repo: opentestdriveunlimited/OpenTestDriveUnlimited
-asset: opentdu_release_linux_vulkan.zip
+asset: 'opentdu_*_linux_vulkan.zip'
 install:
   type: extract
   dest: ${APPDIR}/opentdu
