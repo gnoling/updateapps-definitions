@@ -17,7 +17,7 @@ writes outside your apps directories.
 
 ## Definitions
 
-133 definitions. *(disabled)* marks ones that stay off even for a repository that enables
+134 definitions. *(disabled)* marks ones that stay off even for a repository that enables
 everything by default (upstream archived or moved); their `notes:` say why.
 
 ### Emulators
@@ -164,6 +164,7 @@ everything by default (upstream archived or moved); their `notes:` say why.
 | [Ludusavi](apps.d/ludusavi.yaml) | Backup and restore tool for PC game save files | [mtkennerly/ludusavi](https://github.com/mtkennerly/ludusavi) |
 | [Obsidian](apps.d/obsidian.yaml) | Markdown-based knowledge base / note-taking app | [obsidianmd/obsidian-releases](https://github.com/obsidianmd/obsidian-releases) |
 | [ProtonUp-Qt](apps.d/protonup-qt.yaml) | Install and manage Proton-GE and other Wine/Proton compatibility layers | [DavidoTek/ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt) |
+| [SCSKiller](apps.d/scskiller.yaml) | Compiles games' shaders into the GPU driver's cache ahead of time to stop shader stutter | [BlueHeisenberg/SCSKiller](https://github.com/BlueHeisenberg/SCSKiller) |
 | [spotifyd](apps.d/spotifyd.yaml) | Spotify Connect daemon | [Spotifyd/spotifyd](https://github.com/Spotifyd/spotifyd) |
 | [WinBoat](apps.d/winboat.yaml) | Windows application compatibility and launcher tool | [TibixDev/winboat](https://github.com/TibixDev/winboat) |
 | [XnView MP](apps.d/xnviewmp.yaml) | Image viewer, browser and converter | [download.xnview.com](https://download.xnview.com/versions/XnView_MP/?C=M;O=A) |

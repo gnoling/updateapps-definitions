@@ -1,0 +1,16 @@
+name: SCSKiller
+description: Compiles games' shaders into the GPU driver's cache ahead of time to stop shader stutter
+category: tools
+notes: |
+  The AppImage updates itself too (Velopack), replacing the file in place, so after a
+  self-update updateapps may download the same release once more.
+  No launcher from updateapps: each start writes the app's own,
+  com.BlueHeisenberg.SCSKiller.desktop, with its icons.
+desktop: false
+source:
+  type: github-release
+  repo: BlueHeisenberg/SCSKiller
+asset: 'SCSKiller-x86_64.AppImage'
+install:
+  type: file
+  dest: ${APPIMAGEDIR}/SCSKiller.AppImage
