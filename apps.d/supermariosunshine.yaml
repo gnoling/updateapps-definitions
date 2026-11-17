@@ -1,0 +1,21 @@
+name: Super Mario Sunshine
+description: Native PC port of Super Mario Sunshine
+category: ports
+notes: |
+  This is SMS Launcher, which builds the port (sms-pc-port, beside it) from your own
+  GameCube disc image and keeps it current; it updates itself too, so updateapps mainly
+  handles the first install. Stable releases only: the launcher's betas are prereleases.
+  Electron needs --no-sandbox on distributions that restrict unprivileged user namespaces.
+desktop:
+  args: --no-sandbox
+  generic_name: Super Mario Sunshine Port
+  keywords: [mario, sunshine, gamecube, decomp, port, delfino, fludd]
+  wm_class: sms-launcher
+source:
+  type: github-release
+  repo: chasem-dev/sms-launcher
+  channel: stable
+asset: 'SMS-Launcher.AppImage'
+install:
+  type: file
+  dest: ${APPDIR}/MarioSunshine/SMS-Launcher.AppImage

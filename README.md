@@ -17,7 +17,7 @@ writes outside your apps directories.
 
 ## Definitions
 
-134 definitions. *(disabled)* marks ones that stay off even for a repository that enables
+135 definitions. *(disabled)* marks ones that stay off even for a repository that enables
 everything by default (upstream archived or moved); their `notes:` say why.
 
 ### Emulators
@@ -136,6 +136,7 @@ everything by default (upstream archived or moved); their `notes:` say why.
 | [Starship](apps.d/starship.yaml) | Native PC port of Star Fox 64 | [HarbourMasters/Starship](https://github.com/HarbourMasters/Starship) |
 | [Super Mario 64: CoopDX](apps.d/sm64coopdx.yaml) | Online co-op multiplayer PC port of Super Mario 64 | [coop-deluxe/sm64coopdx](https://github.com/coop-deluxe/sm64coopdx) |
 | [Super Mario Bros. Remastered](apps.d/smb-remastered.yaml) | Fan remaster of the original Super Mario Bros. built in Godot | [JHDev2006/Super-Mario-Bros.-Remastered-Public](https://github.com/JHDev2006/Super-Mario-Bros.-Remastered-Public) |
+| [Super Mario Sunshine](apps.d/supermariosunshine.yaml) | Native PC port of Super Mario Sunshine | [chasem-dev/sms-launcher](https://github.com/chasem-dev/sms-launcher) |
 | [The Legend of Zelda: The Minish Cap](apps.d/minishcap.yaml) | PC port of The Legend of Zelda: The Minish Cap | [999sian/tmc](https://github.com/999sian/tmc) |
 | [TRX (Tomb Raider I-III)](apps.d/trx.yaml) | Open-source reimplementation and enhancement of Tomb Raider I-III and their expansions (unified TRX engine) | [LostArtefacts/TRX](https://github.com/LostArtefacts/TRX) |
 | [Unleashed Recompiled](apps.d/unleashedrecomp.yaml) | PC port of the Xbox 360 Sonic Unleashed via static recompilation | [hedge-dev/UnleashedRecomp](https://github.com/hedge-dev/UnleashedRecomp) |
