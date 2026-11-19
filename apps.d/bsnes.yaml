@@ -1,0 +1,25 @@
+name: bsnes
+description: Super Nintendo emulator focused on accuracy
+category: emulators
+notes: |
+  The latest master build from Actions. The nightly release only moves when every
+  platform's job passes, and the FreeBSD one has failed since July 2026, so it's stuck
+  while the Linux job keeps succeeding; hence status: any. A run whose Linux job failed
+  is skipped until the next one.
+  The artifact is the bare binary. Database, Shaders and Firmware come from bsnes-data,
+  which installs into the same folder; extract overlays, so neither removes the other's
+  files, and settings.bml beside the binary (portable mode) stays.
+desktop:
+  generic_name: Super Nintendo Emulator
+  keywords: [snes, super famicom, nintendo, emulator, accuracy]
+source:
+  type: github-actions
+  repo: bsnes-emu/bsnes
+  workflow: Build
+  branch: master
+  status: any
+  artifact: bsnes-ubuntu
+install:
+  type: extract
+  dest: ${APPDIR}/bsnes
+  executables: [bsnes]

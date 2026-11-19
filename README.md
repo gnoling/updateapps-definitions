@@ -17,7 +17,7 @@ writes outside your apps directories.
 
 ## Definitions
 
-135 definitions. *(disabled)* marks ones that stay off even for a repository that enables
+137 definitions. *(disabled)* marks ones that stay off even for a repository that enables
 everything by default (upstream archived or moved); their `notes:` say why.
 
 ### Emulators
@@ -31,6 +31,8 @@ everything by default (upstream archived or moved); their `notes:` say why.
 | [BigPEmu](apps.d/bigpemu.yaml) | Atari Jaguar and Jaguar CD emulator | [www.richwhitehouse.com](https://www.richwhitehouse.com/jaguar/index.php?content=download) |
 | [BizHawk](apps.d/bizhawk.yaml) | Multi-system emulator focused on TAS (tool-assisted speedrun) creation | [TASEmulators/BizHawk](https://github.com/TASEmulators/BizHawk) |
 | [BlastEm](apps.d/blastem.yaml) | High-accuracy Sega Genesis / Mega Drive emulator | [www.retrodev.com](https://www.retrodev.com/blastem/nightlies/) |
+| [bsnes data](apps.d/bsnes-data.yaml) | Game database, shaders and firmware folder for bsnes | [bsnes-emu/bsnes](https://github.com/bsnes-emu/bsnes) |
+| [bsnes](apps.d/bsnes.yaml) | Super Nintendo emulator focused on accuracy | [bsnes-emu/bsnes](https://github.com/bsnes-emu/bsnes) |
 | [Cemu](apps.d/cemu.yaml) | Nintendo Wii U Emulator | [cemu-project/Cemu](https://github.com/cemu-project/Cemu) |
 | [Chiaki-NG](apps.d/chiaki-ng.yaml) | PS4/PS5 Remote Play streaming client | [streetpea/chiaki-ng](https://github.com/streetpea/chiaki-ng) |
 | [Citron](apps.d/citron.yaml) | Nintendo Switch emulator | [citron-neo/CI](https://github.com/citron-neo/CI) |

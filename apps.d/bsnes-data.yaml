@@ -1,0 +1,19 @@
+name: bsnes data
+description: Game database, shaders and firmware folder for bsnes
+category: emulators
+notes: |
+  From the nightly release, which also carries the binary; bsnes installs a newer one
+  (see its notes), so the binary is left out here. So is the stock settings.bml, which
+  would replace yours. The data last changed in 2021, so the nightly's staleness
+  doesn't matter.
+desktop: false
+source:
+  type: github-release
+  repo: bsnes-emu/bsnes
+  tag: nightly
+asset: 'bsnes-ubuntu.zip'
+install:
+  type: extract
+  dest: ${APPDIR}/bsnes
+  strip: 1
+  exclude: [bsnes, settings.bml]
