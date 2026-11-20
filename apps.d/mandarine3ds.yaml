@@ -1,6 +1,10 @@
 name: Mandarine
 description: Nintendo 3DS emulator (fork of Citra)
 category: emulators
+enabled: false
+notes: |
+  Gone upstream (2026-11): mandarine3ds/mandarine redirects to ptyfyre/mandarine-neo, and
+  both that repository and its owner's account return 404.
 source:
   type: github-release
   repo: mandarine3ds/mandarine

@@ -57,7 +57,7 @@ everything by default (upstream archived or moved); their `notes:` say why.
 | [Hypseus Singe](apps.d/hypseus.yaml) | Multiple Arcade Laserdisc Emulator (Dragon's Lair, Space Ace, Singe games) | [DirtBagXon/hypseus-singe](https://github.com/DirtBagXon/hypseus-singe) |
 | [jgenesis](apps.d/jgenesis.yaml) | Multi-system emulator for Sega Genesis, Master System, SNES, NES, Game Boy and more | [jsgroth/jgenesis](https://github.com/jsgroth/jgenesis) |
 | [Lime3DS](apps.d/lime3ds.yaml) *(disabled)* | Nintendo 3DS emulator (Citra fork) | [Lime3DS/lime3ds-archive](https://github.com/Lime3DS/lime3ds-archive) |
-| [Mandarine](apps.d/mandarine3ds.yaml) | Nintendo 3DS emulator (fork of Citra) | [mandarine3ds/mandarine](https://github.com/mandarine3ds/mandarine) |
+| [Mandarine](apps.d/mandarine3ds.yaml) *(disabled)* | Nintendo 3DS emulator (fork of Citra) | [mandarine3ds/mandarine](https://github.com/mandarine3ds/mandarine) |
 | [melonDS](apps.d/melonds.yaml) | A fast and accurate Nintendo DS emulator | [melonDS-emu/melonDS](https://github.com/melonDS-emu/melonDS) |
 | [Mesen](apps.d/mesen.yaml) *(disabled)* | High-accuracy NES/Famicom and SNES emulator | [SourMesen/Mesen2](https://github.com/SourMesen/Mesen2) |
 | [mGBA](apps.d/mgba.yaml) | Game Boy Advance Emulator | [s3.amazonaws.com](https://s3.amazonaws.com/mgba/mGBA-build-latest-appimage-x64.appimage) |
