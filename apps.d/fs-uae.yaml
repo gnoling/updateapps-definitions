@@ -4,7 +4,7 @@ category: emulators
 source:
   type: github-release
   repo: FrodeSolheim/fs-uae
-asset: 'FS-UAE_*_Linux_x86-64.tar.xz'
+asset: 'FS-UAE-*x86_64-linux-gnu.tar.xz'
 install:
   type: extract
   dest: ${APPDIR}/fs-uae
